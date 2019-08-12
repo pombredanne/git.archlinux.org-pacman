@@ -11,6 +11,7 @@
 # R00KIE <registosites@hotmail.com>, 2013,2016
 # R00KIE <registosites@hotmail.com>, 2013,2016-2017
 # R00KIE <registosites@hotmail.com>, 2011-2012
+# Rui <xymarior@yandex.com>, 2019
 # c0d75bae60e6967ec54315cff4da5848, 2014-2015
 # c0d75bae60e6967ec54315cff4da5848, 2011-2012
 msgid ""
@@ -18,8 +19,8 @@ msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-07-19 04:18+0000\n"
-"Last-Translator: Allan McRae <allan@archlinux.org>\n"
+"PO-Revision-Date: 2019-02-06 18:35+0000\n"
+"Last-Translator: Rui <xymarior@yandex.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/toofishes/archlinux-"
 "pacman/language/pt/)\n"
 "Language: pt\n"
@@ -46,11 +47,11 @@ msgstr "Falha ao atualizar %s de %s para %s"
 
 #: scripts/makepkg.sh.in:206
 msgid "Updated version: %s"
-msgstr "Versão actualizada: %s"
+msgstr "Versão atualizada: %s"
 
 #: scripts/makepkg.sh.in:208
 msgid "%s is not writeable -- pkgver will not be updated"
-msgstr "Não é possível escrever em %s -- pkgver não vai ser actualizado"
+msgstr "%s pode ser escrito -- pkgver não será atualizado"
 
 #: scripts/makepkg.sh.in:216
 msgid "Unable to find source file %s."
@@ -126,7 +127,7 @@ msgstr "Livraria listada em %s não tem versão: %s"
 
 #: scripts/makepkg.sh.in:602
 msgid "Library listed in %s is not a shared object: %s"
-msgstr "Livraria listada em %s não é um objecto partilhado: %s"
+msgstr "A biblioteca listada em %s não é um objeto partilhado: %s"
 
 #: scripts/makepkg.sh.in:617
 msgid "Cannot find library listed in %s: %s"
@@ -134,7 +135,7 @@ msgstr "Não é possível encontrar biblioteca apresentada em %s: %s"
 
 #: scripts/makepkg.sh.in:630
 msgid "Invalid value for %s: %s"
-msgstr ""
+msgstr "Valor inválido para %s: %s"
 
 #: scripts/makepkg.sh.in:643 scripts/makepkg.sh.in:681
 #: scripts/makepkg.sh.in:819
@@ -143,7 +144,7 @@ msgstr "A gerar %s ficheiros..."
 
 #: scripts/makepkg.sh.in:725
 msgid "Missing %s directory."
-msgstr "O directório %s não existe."
+msgstr "O diretório %s não existe."
 
 #: scripts/makepkg.sh.in:731
 msgid "Creating package \"%s\"..."
@@ -246,6 +247,8 @@ msgstr ""
 msgid ""
 "Cannot find the %s binary required for source file checksums operations."
 msgstr ""
+"Não foi possível localizar o executável %s necessário para as operações de "
+"soma de verificação (checksum) de ficheiros-fontes."
 
 #: scripts/makepkg.sh.in:1039
 msgid "Cannot find the %s binary required for distributed compilation."
@@ -433,6 +436,7 @@ msgstr "  --nosign         Não criar uma assinatura para o pacote"
 #: scripts/makepkg.sh.in:1194
 msgid "  --packagelist    Only list package filepaths that would be produced"
 msgstr ""
+" --packagelist Só lista caminhos de ficheiros de pacotes a ser produzidos"
 
 #: scripts/makepkg.sh.in:1195
 msgid "  --printsrcinfo   Print the generated SRCINFO and exit"
@@ -445,7 +449,8 @@ msgstr "  --sign           Assinar o pacote criado com %s"
 #: scripts/makepkg.sh.in:1197
 msgid "  --skipchecksums  Do not verify checksums of the source files"
 msgstr ""
-"  --skipchecksums  Não validar os códigos de validação dos ficheiros-fonte"
+"  --skipchecksums  Não validar as somas de verificação (checlsum) dos "
+"ficheiros-fonte"
 
 #: scripts/makepkg.sh.in:1198
 msgid ""
@@ -503,6 +508,11 @@ msgid ""
 "free software; see the source for copying conditions.\\nThere is NO "
 "WARRANTY, to the extent permitted by law.\\n"
 msgstr ""
+"Direitos de autor (c) 2006-2018 Pacman Development Team <pacman-"
+"dev@archlinux.org>.\\nDireitos de autor (C) 2002-2006 Judd Vinet "
+"<jvinet@zeroflux.org>.\\n\\nEste programa é software livre; veja as fontes "
+"para saber mais sobre as condições de cópia.\\nNão há NENHUMA GARANTIA, na "
+"extensão permitida pela lei.\\n"
 
 #: scripts/makepkg.sh.in:1318 scripts/repo-add.sh.in:743
 msgid "%s signal caught. Exiting..."
@@ -522,7 +532,7 @@ msgstr ""
 
 #: scripts/makepkg.sh.in:1420
 msgid "Do not use the %s option. This option is only for internal use by %s."
-msgstr ""
+msgstr "Não use a opção %s. Esta opção é apenas para uso interno do %s."
 
 #: scripts/makepkg.sh.in:1435
 msgid "%s does not exist."
@@ -616,12 +626,13 @@ msgstr "linha inválida no modelo: incapaz de encontrar o nome do modelo\n"
 #: scripts/makepkg-template.pl.in:87
 #, perl-format
 msgid "invalid chars used in name '%s'. allowed: [:alnum:]+_.@-\n"
-msgstr "caracteres inválidos no nome '%s'. permitidos: [:alnum:]+_.@-\n"
+msgstr ""
+"caracteres inválidos usados no nome \"%s\", permitidos: [:alnum:]+_.@-\n"
 
 #: scripts/makepkg-template.pl.in:114
 #, perl-format
 msgid "Couldn't detect version for template '%s'\n"
-msgstr "Incapaz de detectar a versão do modelo '%s'\n"
+msgstr "Não foi possível detetar a versão do modelo '%s'\n"
 
 #: scripts/makepkg-template.pl.in:125
 #, perl-format
@@ -673,7 +684,7 @@ msgstr ""
 
 #: scripts/makepkg-template.pl.in:182
 msgid "  --template-dir <dir>  directory to search for templates\n"
-msgstr "  --template-dir <directoria>  diretório onde procurar por modelos\n"
+msgstr "  --template-dir <diretorio>  diretório onde procurar por modelos\n"
 
 #: scripts/makepkg-template.pl.in:183
 #, perl-format
@@ -747,8 +758,7 @@ msgstr "%s não é um caminho para a base de dados do pacman."
 
 #: scripts/pacman-db-upgrade.sh.in:126
 msgid "You must have correct permissions to upgrade the database."
-msgstr ""
-"Precisa de ter as permissões correctas para actualizar a base de dados."
+msgstr "Tem de ter as permissões corretas para atualizar a base de dados."
 
 #: scripts/pacman-db-upgrade.sh.in:136
 msgid "Pacman lock file was found. Cannot run while pacman is running."
@@ -758,7 +768,7 @@ msgstr ""
 
 #: scripts/pacman-db-upgrade.sh.in:148
 msgid "Pre-3.5 database format detected - upgrading..."
-msgstr "Formato da base de dados pré 3.5 detectado - a actualizar..."
+msgstr "Formato da base de dados pré 3.5 detetado - a atualizar..."
 
 #: scripts/pacman-db-upgrade.sh.in:155
 msgid "Done."
@@ -836,8 +846,7 @@ msgstr ""
 
 #: scripts/pacman-key.sh.in:73
 msgid "  --import                  Imports pubring.gpg from dir(s)"
-msgstr ""
-"  --import                  Importa pubring.gpg a partir da(s) directoria(s)"
+msgstr "  --import                  Importa pubring.gpg dos diretórios"
 
 #: scripts/pacman-key.sh.in:74
 msgid ""
@@ -889,7 +898,7 @@ msgid ""
 "  --gpgdir <dir>            Set an alternate directory for GnuPG (instead"
 "\\n                            of '%s')"
 msgstr ""
-"  --gpgdir <directoria>            Definir um diretório alternativo para o "
+"  --gpgdir <diretorio>            Definir um diretório alternativo para o "
 "GnuPG (ao invés\\n                            de '%s')"
 
 #: scripts/pacman-key.sh.in:87
@@ -928,7 +937,7 @@ msgstr "Use '%s' para corrigir as permissões do gestor de chaves."
 
 #: scripts/pacman-key.sh.in:236
 msgid "You do not have sufficient permissions to run this command."
-msgstr "Não tem permissões suficientes para efectuar este comando."
+msgstr "Não tem permissões suficientes para efetuar este comando."
 
 #: scripts/pacman-key.sh.in:244
 msgid "There is no secret key available to sign with."
@@ -960,11 +969,11 @@ msgstr "A importar os valores de confiança do proprietário..."
 
 #: scripts/pacman-key.sh.in:329
 msgid "Disabling revoked keys in keyring..."
-msgstr "A desactivar as chaves revogadas no chaveiro..."
+msgstr "A desativar as chaves revogadas no chaveiro..."
 
 #: scripts/pacman-key.sh.in:331
 msgid "Disabling key %s..."
-msgstr "A desactivar a chave %s..."
+msgstr "A desativar a chave %s..."
 
 #: scripts/pacman-key.sh.in:339
 msgid "A specified keyfile could not be added to the keyring."
@@ -1014,12 +1023,12 @@ msgstr "%s não pode ser assinado localmente."
 #: scripts/pacman-key.sh.in:474
 msgid "Remote key not fetched correctly from keyserver."
 msgstr ""
-"A chave remota não foi obtida correctamente a partir do servidor de chaves."
+"A chave remota não foi obtida corretamente a partir do servidor de chaves."
 
 #: scripts/pacman-key.sh.in:482
 msgid "A specified local key could not be updated from a keyserver."
 msgstr ""
-"A chave local especificada não pôde ser actualizada a partir do servidor de "
+"A chave local especificada não pôde ser atualizada a partir do servidor de "
 "chaves."
 
 #: scripts/pacman-key.sh.in:492 scripts/repo-add.sh.in:368
@@ -1036,7 +1045,7 @@ msgstr "Atualizando a base de dados confiável..."
 
 #: scripts/pacman-key.sh.in:506
 msgid "Trust database could not be updated."
-msgstr "A base de dados de confiança não pôde ser actualizada."
+msgstr "A base de dados de confiança não pôde ser atualizada."
 
 #: scripts/pacman-key.sh.in:568
 msgid "Cannot find the %s binary required for all %s operations."
@@ -1175,9 +1184,8 @@ msgid ""
 "repo-add will update a package database by reading a package file."
 "\\nMultiple packages to add can be specified on the command line.\\n"
 msgstr ""
-"repo-add irá actualizar a base de dados de pacotes ao ler um pacote."
-"\\nMúltiplos pacotes a adicionar podem ser especificados na linha de "
-"comandos.\\n"
+"repo-add irá atualizar a base de dados de pacotes ao ler um pacote.\\nPodem "
+"ser especificados vários pacotes a adicionar na linha de comandos.\\n"
 
 #: scripts/repo-add.sh.in:62
 msgid "  -d, --delta       generate and add delta for package update\\n"
@@ -1211,7 +1219,7 @@ msgid ""
 "\\nspecified on the command line from the given repo database. Multiple"
 "\\npackages to remove can be specified on the command line.\\n"
 msgstr ""
-"repo-remove irá actualizar a base de dados de pacotes ao remover o pacote"
+"repo-remove irá atualizar a base de dados de pacotes ao remover o pacote"
 "\\nespecificado na linha de comandos da base de dados do repositório. "
 "Múltiplos\\npacotes a remover podem ser especificados na linha de comandos."
 "\\n"
@@ -1239,7 +1247,7 @@ msgstr ""
 msgid "  -v, --verify      verify database's signature before update\\n"
 msgstr ""
 "  -v, --verify       verificar a assinatura da base de dados antes de "
-"actualizar\\n"
+"atualizar\\n"
 
 #: scripts/repo-add.sh.in:83
 msgid ""
@@ -1332,7 +1340,7 @@ msgstr "Adicionando assinatura ao pacote..."
 
 #: scripts/repo-add.sh.in:383
 msgid "Computing checksums..."
-msgstr "Calculando códigos de validação..."
+msgstr "A calcular somas de verificação (checksum)..."
 
 #: scripts/repo-add.sh.in:401 scripts/repo-add.sh.in:455
 msgid "Creating '%s' db entry..."
@@ -1417,7 +1425,7 @@ msgstr ""
 
 #: scripts/repo-add.sh.in:824
 msgid "Creating updated database file '%s'"
-msgstr "A criar ficheiro actualizado da base de dados '%s'"
+msgstr "A criar ficheiro atualizado da base de dados '%s'"
 
 #: scripts/repo-add.sh.in:828
 msgid "No packages modified, nothing to do."
@@ -1430,7 +1438,7 @@ msgstr ""
 
 #: scripts/libmakepkg/integrity.sh.in:36
 msgid "Skipping verification of source file checksums."
-msgstr "Ignorando a verificação de checksums dos ficheiros de origem."
+msgstr "A ignorar a soma de verificação (checksum) dos ficheiros-fonte."
 
 #: scripts/libmakepkg/integrity.sh.in:39
 msgid "Skipping verification of source file PGP signatures."
@@ -1438,7 +1446,7 @@ msgstr "Ignorando a verificação de assinaturas PGP dos ficheiros de origem."
 
 #: scripts/libmakepkg/integrity/generate_checksum.sh.in:81
 msgid "Generating checksums for source files..."
-msgstr "A gerar checksums para os ficheiros fonte..."
+msgstr "A gerar somas de verificação (checksum) dos ficheiros-fonte..."
 
 #: scripts/libmakepkg/integrity/generate_checksum.sh.in:93
 msgid "Invalid integrity algorithm '%s' specified."
@@ -1454,7 +1462,7 @@ msgstr "Erro ao assinar o ficheiro do pacote."
 
 #: scripts/libmakepkg/integrity/generate_signature.sh.in:56
 msgid "Signing package(s)..."
-msgstr ""
+msgstr "A assinar os pacotes..."
 
 #: scripts/libmakepkg/integrity/verify_checksum.sh.in:64
 msgid "Integrity checks are missing for: %s"
@@ -1575,7 +1583,7 @@ msgstr "%s não deve ser um array"
 
 #: scripts/libmakepkg/lint_package.sh.in:41
 msgid "Checking for packaging issues..."
-msgstr ""
+msgstr "A verificar se há problemas de pacotes..."
 
 #: scripts/libmakepkg/lint_package/build_references.sh.in:36
 msgid "Package contains reference to %s"
@@ -1587,7 +1595,7 @@ msgstr ""
 
 #: scripts/libmakepkg/lint_package/file_names.sh.in:36
 msgid "Package contains paths with newlines"
-msgstr ""
+msgstr "O pacote contém caminhos com caracteres de nova linha"
 
 #: scripts/libmakepkg/lint_package/missing_backup.sh.in:35
 msgid "%s entry file not in package : %s"
@@ -1645,6 +1653,8 @@ msgstr "%s tem de ser decimal, não %s."
 msgid ""
 "%s is not allowed to contain colons, forward slashes, hyphens or whitespace."
 msgstr ""
+"%s não pode conter caracteres de dois pontos, barras, hífenes ou espaços em "
+"branco."
 
 #: scripts/libmakepkg/lint_pkgbuild/provides.sh.in:46
 msgid "%s array cannot contain comparison (< or >) operators."
@@ -1654,7 +1664,7 @@ msgstr ""
 
 #: scripts/libmakepkg/lint_pkgbuild/source.sh.in:36
 msgid "Sparse arrays are not allowed for source"
-msgstr "Vectores esparsos não são permitidos como código fonte"
+msgstr "Vetores esparsos não são permitidos como fonte"
 
 #: scripts/libmakepkg/lint_pkgbuild/util.sh.in:34
 msgid "%s file (%s) does not exist or is not a regular file."
@@ -1724,7 +1734,7 @@ msgstr "A realizar a descarga de %s..."
 
 #: scripts/libmakepkg/source/file.sh.in:74
 msgid "Failure while downloading %s"
-msgstr "Falhou ao efectuar a descarga de %s"
+msgstr "Falhou ao efetuar a descarga de %s"
 
 #: scripts/libmakepkg/source/file.sh.in:130
 msgid "Extracting %s with %s"
@@ -1756,7 +1766,7 @@ msgstr "A atualizar %s do repositório %s ..."
 #: scripts/libmakepkg/source/git.sh.in:62 scripts/libmakepkg/source/hg.sh.in:55
 #: scripts/libmakepkg/source/svn.sh.in:76
 msgid "Failure while updating %s %s repo"
-msgstr "Falha ao actualizar %s do repositório %s"
+msgstr "Falha ao atualizar repositório %s do tipo %s"
 
 #: scripts/libmakepkg/source/git.sh.in:116
 msgid "Failure while checking out version %s, the git tag has been forged"
@@ -1838,8 +1848,8 @@ msgstr "Falha ao mudar para o diretório %s"
 
 #: scripts/libmakepkg/util/util.sh.in:89
 msgid "Failed to create the directory $%s (%s)."
-msgstr ""
+msgstr "Falha ao criar o diretório $%s (%s)."
 
 #: scripts/libmakepkg/util/util.sh.in:92
 msgid "You do not have write permission for the directory $%s (%s)."
-msgstr ""
+msgstr "Não tem permissão de escrita no diretório $%s (%s)."

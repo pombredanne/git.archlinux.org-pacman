@@ -16,15 +16,15 @@
 # 56d5d7c9ccc04394ef84fc87640272f6, 2014
 # 56d5d7c9ccc04394ef84fc87640272f6, 2014
 # W J <transifex@woutje.be>, 2018
-# zenlord <zenlord@gmail.com>, 2015
+# zenlord <zenlord@gmail.com>, 2015,2018
 # zenlord <zenlord@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-09-12 11:22+0000\n"
-"Last-Translator: W J <transifex@woutje.be>\n"
+"PO-Revision-Date: 2018-12-23 14:40+0000\n"
+"Last-Translator: zenlord <zenlord@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/nl/)\n"
 "Language: nl\n"
@@ -530,7 +530,7 @@ msgstr "%s bestaat niet."
 
 #: scripts/makepkg.sh.in:1440
 msgid "%s contains %s characters and cannot be sourced."
-msgstr "%s bevat %s karakters en kan niet worden gesourced."
+msgstr "%s bevat %s karakters en kan niet worden ingelezen."
 
 #: scripts/makepkg.sh.in:1445
 msgid "%s must be in the current working directory."

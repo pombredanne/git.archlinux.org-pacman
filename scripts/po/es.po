@@ -11,10 +11,10 @@
 # juantascon <juantascon@gmail.com>, 2011
 # Leonel <leonelmalon@gmail.com>, 2013
 # Leonel <leonelmalon@gmail.com>, 2013
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013,2016
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013-2016
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013,2016-2017
+# prflr88 <prflr88@gmail.com>, 2013
+# prflr88 <prflr88@gmail.com>, 2013,2016
+# prflr88 <prflr88@gmail.com>, 2013-2016
+# prflr88 <prflr88@gmail.com>, 2013,2016-2017
 # Pedro Román <roizheim@gmail.com>, 2013-2016,2018
 # picodotdev <pico.dev@gmail.com>, 2015-2016
 # Pedro Román <roizheim@gmail.com>, 2013

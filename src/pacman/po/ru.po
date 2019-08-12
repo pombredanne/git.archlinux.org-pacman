@@ -14,7 +14,7 @@
 # Sergey Shepelev <temotor@gmail.com>, 2014
 # partizan <serg.partizan@gmail.com>, 2013-2015,2017
 # partizan <serg.partizan@gmail.com>, 2012
-# Vasiliy Polyakov <vp@psu.ru>, 2015
+# be1bb8e720f95f5c175a5f1f3aa8f780, 2015
 # VVS <vitaliy.star@gmail.com>, 2011
 # xelk <haveiteasy@gmail.com>, 2014
 # Анатолий Валерианович <ffox909@mail.ru>, 2016

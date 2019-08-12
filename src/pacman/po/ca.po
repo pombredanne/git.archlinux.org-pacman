@@ -9,14 +9,14 @@
 # Josep <jpreales@gmail.com>, 2011,2013-2014
 # Josep <jpreales@gmail.com>, 2011,2013
 # Josep <jpreales@gmail.com>, 2011
-# Davidmp <medipas@gmail.com>, 2015-2018
+# Davidmp <medipas@gmail.com>, 2015-2019
 # Ramon Buldó <rbuldo@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-07-19 14:06+1000\n"
-"PO-Revision-Date: 2018-07-27 12:47+0000\n"
+"PO-Revision-Date: 2019-03-08 16:08+0000\n"
 "Last-Translator: Davidmp <medipas@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/ca/)\n"
@@ -368,9 +368,9 @@ msgstr[1] "%jd fitxers modificats\n"
 #, c-format
 msgid "malloc failure: could not allocate %zu byte\n"
 msgid_plural "malloc failure: could not allocate %zu bytes\n"
-msgstr[0] "fallada d'assignació de memòria: no s'ha pogut assignar %zu byte\n"
+msgstr[0] "Fallada d'assignació de memòria: no s'ha pogut assignar %zu byte\n"
 msgstr[1] ""
-"fallada d'assignació de memòria: no s'han pogut assignar %zu bytes\n"
+"Fallada d'assignació de memòria: no s'han pogut assignar %zu bytes\n"
 
 #: src/pacman/conf.c:252
 #, c-format
@@ -628,7 +628,7 @@ msgstr "Script d'instal·lació"
 #: src/pacman/package.c:111
 #, c-format
 msgid "Installed Size"
-msgstr "Mida un cop feta la instal·lació"
+msgstr "Mida de la instal·lació"
 
 #: src/pacman/package.c:112
 #, c-format
@@ -998,7 +998,7 @@ msgid ""
 "  -u, --sysupgrade     upgrade installed packages (-uu enables downgrades)\n"
 msgstr ""
 "  -u, --sysupgrade     Actualitza els paquets instal·lats (-uu permet la "
-"desactualització).\n"
+"degradació).\n"
 
 #: src/pacman/pacman.c:164
 #, c-format
@@ -1571,7 +1571,7 @@ msgstr "%s i %s tenen conflictes (%s)\n"
 #: src/pacman/sync.c:801
 #, c-format
 msgid "Proceed with download?"
-msgstr "Inicio la baixada?"
+msgstr "N'inicio la baixada?"
 
 #: src/pacman/sync.c:803
 #, c-format
@@ -1771,7 +1771,7 @@ msgstr "Mida total de la baixada:"
 #: src/pacman/util.c:946
 #, c-format
 msgid "Total Installed Size:"
-msgstr "Mida total un cop feta la instal·lació:"
+msgstr "Mida total de la instal·lació:"
 
 #: src/pacman/util.c:949
 #, c-format

@@ -8,7 +8,7 @@
 # Antoine Lubineau <antoine@lubignon.info>, 2012
 # Antoine Lubineau <antoine@lubignon.info>, 2012-2013,2015,2017-2018
 # Cedric Girard <girard.cedric@gmail.com>, 2012,2014
-# Charles Monzat <c.monzat@laposte.net>, 2018
+# Charles Monzat <c.monzat@laposte.net>, 2018-2019
 # Charles Monzat <c.monzat@laposte.net>, 2015-2016,2018
 # Charles Monzat <c.monzat@laposte.net>, 2018
 # Charles Monzat <c.monzat@laposte.net>, 2018
@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-11-03 11:42+0000\n"
+"PO-Revision-Date: 2019-01-05 10:06+0000\n"
 "Last-Translator: Charles Monzat <c.monzat@laposte.net>\n"
 "Language-Team: French (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/fr/)\n"
@@ -97,7 +97,7 @@ msgstr "« %s » a rencontré une erreur fatale (%i) : %s"
 
 #: scripts/makepkg.sh.in:268
 msgid "Installing missing dependencies..."
-msgstr "Installation des dépendances manquantes… "
+msgstr "Installation des dépendances manquantes…"
 
 #: scripts/makepkg.sh.in:271
 msgid "'%s' failed to install missing dependencies."
@@ -170,7 +170,7 @@ msgstr "Génération du fichier .MTREE…"
 
 #: scripts/makepkg.sh.in:768
 msgid "Compressing package..."
-msgstr "Compression du paquet… "
+msgstr "Compression du paquet…"
 
 #: scripts/makepkg.sh.in:777
 msgid "Failed to create package file."
@@ -190,7 +190,7 @@ msgstr "Ajout du fichier %s (%s)…"
 
 #: scripts/makepkg.sh.in:857
 msgid "Compressing source package..."
-msgstr "Compression du paquet source… "
+msgstr "Compression du paquet source…"
 
 #: scripts/makepkg.sh.in:867
 msgid "Failed to create source package file."
@@ -1805,7 +1805,7 @@ msgstr "%s n’est pas un clone de %s"
 #: scripts/libmakepkg/source/git.sh.in:59 scripts/libmakepkg/source/hg.sh.in:51
 #: scripts/libmakepkg/source/svn.sh.in:72
 msgid "Updating %s %s repo..."
-msgstr "Mise à jour du dépôt %s %s"
+msgstr "Mise à jour du dépôt %s %s…"
 
 #: scripts/libmakepkg/source/git.sh.in:62 scripts/libmakepkg/source/hg.sh.in:55
 #: scripts/libmakepkg/source/svn.sh.in:76
@@ -1832,7 +1832,7 @@ msgstr "Suppression de la documentation…"
 
 #: scripts/libmakepkg/tidy/emptydirs.sh.in:35
 msgid "Removing empty directories..."
-msgstr "Suppression des répertoires vides… "
+msgstr "Suppression des répertoires vides…"
 
 #: scripts/libmakepkg/tidy/libtool.sh.in:35
 msgid "Removing %s files..."

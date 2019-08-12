@@ -5,6 +5,7 @@
 # Translators:
 # leonfeng <chaofeng111@qq.com>, 2018
 # Dan McGee <dpmcgee@gmail.com>, 2011
+# Jiachen YANG <farseerfc@gmail.com>, 2019
 # leonfeng <chaofeng111@qq.com>, 2011
 # leonfeng <chaofeng111@qq.com>, 2011,2018
 # leonfeng <chaofeng111@qq.com>, 2011
@@ -18,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-08-30 06:21+0000\n"
-"Last-Translator: Jiachen YANG <farseerfc@gmail.com>\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
+"PO-Revision-Date: 2019-07-04 13:58+0000\n"
+"Last-Translator: Nicholas Wang <wck963@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/toofishes/archlinux-"
 "pacman/language/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -59,7 +60,7 @@ msgstr "解压 %s 时出现警告 (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "无法解压缩 %1$s (%2$s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "无法将 %1$s 重命名为 %2$s (%3$s)\n"
@@ -235,7 +236,7 @@ msgstr "读取签名文件失败：%s\n"
 #: lib/libalpm/be_package.c:769 lib/libalpm/sync.c:1113
 #, c-format
 msgid "required key missing from keyring\n"
-msgstr "所需的密钥从密钥环中丢失\n"
+msgstr "所需的密钥不在密钥环中\n"
 
 #: lib/libalpm/be_sync.c:62
 #, c-format
@@ -275,7 +276,7 @@ msgstr "数据库路径未定义\n"
 #: lib/libalpm/deps.c:184
 #, c-format
 msgid "dependency cycle detected:\n"
-msgstr "检测到依赖关系环：\n"
+msgstr "检测到循环依赖：\n"
 
 #: lib/libalpm/deps.c:187
 #, c-format
@@ -325,12 +326,12 @@ msgstr "无法确定文件 %s 的挂载点\n"
 #: lib/libalpm/diskspace.c:354
 #, c-format
 msgid "Partition %s too full: %jd blocks needed, %ju blocks free\n"
-msgstr "分区 %s 过满：需要 %jd 个块，剩余 %ju 个块\n"
+msgstr "分区 %s 已用满：需要 %jd 个块，可用 %ju 个块\n"
 
 #: lib/libalpm/diskspace.c:379 lib/libalpm/diskspace.c:433
 #, c-format
 msgid "could not determine filesystem mount points\n"
-msgstr "无法测定文件系统挂载点\n"
+msgstr "无法确定文件系统挂载点\n"
 
 #: lib/libalpm/diskspace.c:385
 #, c-format
@@ -342,13 +343,13 @@ msgstr ""
 #: lib/libalpm/diskspace.c:438
 #, c-format
 msgid "could not determine root mount point %s\n"
-msgstr "无法测定根分区挂载点 %s\n"
+msgstr "无法确定根分区挂载点 %s\n"
 
 #: lib/libalpm/diskspace.c:486
 #, c-format
 msgid "Partition %s is mounted read only\n"
 msgstr ""
-"分区 %s 为只读\n"
+"分区 %s 被挂载为只读\n"
 "\n"
 
 #: lib/libalpm/dload.c:159
@@ -381,7 +382,7 @@ msgstr "获取文件 '%s' 失败，来自 %s : 下载大小超出期望值\n"
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s 可缩小：%jd/%jd bytes\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "下载 %s 失败\n"
@@ -454,7 +455,7 @@ msgstr "数据库未初始化"
 #: lib/libalpm/error.c:68
 #, c-format
 msgid "database already registered"
-msgstr "数据库已登记"
+msgstr "数据库已经注册过了"
 
 #: lib/libalpm/error.c:70
 #, c-format
@@ -494,17 +495,17 @@ msgstr "无效的服务器 url"
 #: lib/libalpm/error.c:85
 #, c-format
 msgid "no servers configured for repository"
-msgstr "软件库没有配置服务器信息"
+msgstr "软件仓库没有配置服务器信息"
 
 #: lib/libalpm/error.c:88
 #, c-format
 msgid "transaction already initialized"
-msgstr "处理已初始化"
+msgstr "事务已初始化"
 
 #: lib/libalpm/error.c:90 lib/libalpm/error.c:94
 #, c-format
 msgid "transaction not initialized"
-msgstr "处理未初始化"
+msgstr "事务未初始化"
 
 #: lib/libalpm/error.c:92
 #, c-format
@@ -514,22 +515,22 @@ msgstr "重复的目标"
 #: lib/libalpm/error.c:96
 #, c-format
 msgid "transaction not prepared"
-msgstr "处理未准备好"
+msgstr "事务未准备好"
 
 #: lib/libalpm/error.c:98
 #, c-format
 msgid "transaction aborted"
-msgstr "处理已放弃"
+msgstr "事务已放弃"
 
 #: lib/libalpm/error.c:100
 #, c-format
 msgid "operation not compatible with the transaction type"
-msgstr "操作与处理类型不兼容"
+msgstr "操作与事务类型不兼容"
 
 #: lib/libalpm/error.c:102
 #, c-format
 msgid "transaction commit attempt when database is not locked"
-msgstr "未锁定数据库即提交了事务处理尝试"
+msgstr "尝试提交事务处理时尚未锁定数据库"
 
 #: lib/libalpm/error.c:104
 #, c-format
@@ -589,7 +590,7 @@ msgstr "无效的软件包架构"
 #: lib/libalpm/error.c:127
 #, c-format
 msgid "could not find repository for target"
-msgstr "无法为目标找到软件库"
+msgstr "无法为目标找到软件仓库"
 
 #: lib/libalpm/error.c:130
 #, c-format
@@ -604,12 +605,12 @@ msgstr "无效 PGP 签名"
 #: lib/libalpm/error.c:135
 #, c-format
 msgid "invalid or corrupted delta"
-msgstr "无效的或已损坏的 delta"
+msgstr "无效的或已损坏的增量"
 
 #: lib/libalpm/error.c:137
 #, c-format
 msgid "delta patch failed"
-msgstr "delta 补丁失败"
+msgstr "增量补丁失败"
 
 #: lib/libalpm/error.c:140 lib/libalpm/hook.c:614
 #, c-format
@@ -649,7 +650,7 @@ msgstr "下载数据库出错"
 #: lib/libalpm/error.c:159
 #, c-format
 msgid "gpgme error"
-msgstr "pgpme 错误"
+msgstr "gpgme 错误"
 
 #: lib/libalpm/error.c:161
 #, c-format
@@ -664,12 +665,12 @@ msgstr "未预期的错误"
 #: lib/libalpm/handle.c:157
 #, c-format
 msgid "lock file missing %s\n"
-msgstr "lock 文件缺失 %s\n"
+msgstr "缺失锁文件 %s\n"
 
 #: lib/libalpm/handle.c:163
 #, c-format
 msgid "could not remove lock file %s\n"
-msgstr "无法删除锁定文件 %s\n"
+msgstr "无法删除锁文件 %s\n"
 
 #: lib/libalpm/hook.c:107
 #, c-format
@@ -726,7 +727,7 @@ msgstr "钩子 %s 第 %d 行：无效值 %s\n"
 #: lib/libalpm/hook.c:345
 #, c-format
 msgid "hook %s line %d: overwriting previous definition of %s\n"
-msgstr "钩子 %s 第 %d 行：重写此前 %s 的定义\n"
+msgstr "钩子 %s 第 %d 行：覆盖了此前 %s 的定义\n"
 
 #: lib/libalpm/hook.c:352
 #, c-format
@@ -836,7 +837,7 @@ msgstr "%s：缺失签名\n"
 #: lib/libalpm/signing.c:874
 #, c-format
 msgid "%s: signature from \"%s\" is marginal trust\n"
-msgstr "%s: 来自 \"%s\" 的签名是接近完全信任的\n"
+msgstr "%s: 来自 \"%s\" 的签名是勉强信任的\n"
 
 #: lib/libalpm/signing.c:882
 #, c-format
@@ -846,7 +847,7 @@ msgstr "%s: 来自 \"%s\" 的签名是未知信任的\n"
 #: lib/libalpm/signing.c:889
 #, c-format
 msgid "%s: signature from \"%s\" should never be trusted\n"
-msgstr "%s: 来自 \"%s\" 的签名是从不应该信任的\n"
+msgstr "%s: 来自 \"%s\" 的签名是从不应该被信任的\n"
 
 #: lib/libalpm/signing.c:901
 #, c-format
@@ -883,12 +884,12 @@ msgstr "%s: 不支持的签名格式\n"
 #: lib/libalpm/sync.c:98
 #, c-format
 msgid "%s: ignoring package upgrade (%s => %s)\n"
-msgstr "%s：忽略软件包更新 (%s => %s)\n"
+msgstr "%s：忽略软件包升级 (%s => %s)\n"
 
 #: lib/libalpm/sync.c:110
 #, c-format
 msgid "%s: ignoring package downgrade (%s => %s)\n"
-msgstr "%s：正在忽略软件包降级 (%s => %s)\n"
+msgstr "%s：忽略软件包降级 (%s => %s)\n"
 
 #: lib/libalpm/sync.c:113
 #, c-format
@@ -903,12 +904,12 @@ msgstr "%s：本地 (%s) 比 %s 的版本更新 (%s)\n"
 #: lib/libalpm/sync.c:160
 #, c-format
 msgid "ignoring package replacement (%s-%s => %s-%s)\n"
-msgstr "正在忽略软件包更新 (%s-%s => %s-%s)\n"
+msgstr "正在忽略替换软件包 (%s-%s => %s-%s)\n"
 
 #: lib/libalpm/sync.c:176
 #, c-format
 msgid "cannot replace %s by %s\n"
-msgstr "无法用文件 '%2$s' 替代 %1$s\n"
+msgstr "无法替换 %s 为 %s\n"
 
 #: lib/libalpm/sync.c:538 lib/libalpm/sync.c:608
 #, c-format
@@ -933,12 +934,12 @@ msgstr "剩余空间不够\n"
 #: lib/libalpm/sync.c:1406
 #, c-format
 msgid "could not commit removal transaction\n"
-msgstr "无法交付可撤销处理\n"
+msgstr "无法提交删除事务\n"
 
 #: lib/libalpm/sync.c:1414
 #, c-format
 msgid "could not commit transaction\n"
-msgstr "无法交付处理\n"
+msgstr "无法提交事务\n"
 
 #: lib/libalpm/trans.c:364
 #, c-format

@@ -12,13 +12,13 @@
 # kyak <peselnik@gmail.com>, 2013
 # partizan <serg.partizan@gmail.com>, 2014-2015,2017
 # partizan <serg.partizan@gmail.com>, 2012
-# Vasiliy Polyakov <vp@psu.ru>, 2015
+# be1bb8e720f95f5c175a5f1f3aa8f780, 2015
 # Анатолий Валерианович <ffox909@mail.ru>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
 "PO-Revision-Date: 2018-05-29 16:20+0000\n"
 "Last-Translator: Igor <f2404@yandex.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/toofishes/archlinux-pacman/"
@@ -61,7 +61,7 @@ msgstr "получено предупреждение при извлечени�
 msgid "could not extract %s (%s)\n"
 msgstr "не удалось извлечь %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "не удалось переименовать %s в %s (%s)\n"
@@ -385,7 +385,7 @@ msgstr "не удалось получить файл '%s' из %s: превыш
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s, видимо, обрезан: %jd/%jd байт\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "не удалось загрузить %s\n"

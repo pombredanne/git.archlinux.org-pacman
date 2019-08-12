@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Alessandro Menti <alessandro.menti@hotmail.it>, 2019
 # Andrea Scarpino <andrea@archlinux.org>, 2011-2012
 # Andrea Scarpino <inactive+bash@transifex.com>, 2014
 # Andrea Scarpino <inactive+bash@transifex.com>, 2014
@@ -14,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-07-19 04:18+0000\n"
-"Last-Translator: Allan McRae <allan@archlinux.org>\n"
+"PO-Revision-Date: 2019-08-11 09:42+0000\n"
+"Last-Translator: Alessandro Menti <alessandro.menti@hotmail.it>\n"
 "Language-Team: Italian (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/it/)\n"
 "Language: it\n"
@@ -130,7 +131,7 @@ msgstr "Impossibile trovare la libreria presente in %s: %s"
 
 #: scripts/makepkg.sh.in:630
 msgid "Invalid value for %s: %s"
-msgstr ""
+msgstr "Valore non valido per %s: %s"
 
 #: scripts/makepkg.sh.in:643 scripts/makepkg.sh.in:681
 #: scripts/makepkg.sh.in:819
@@ -240,6 +241,8 @@ msgstr "Impossibile trovare %s richiesto per verificare i sorgenti."
 msgid ""
 "Cannot find the %s binary required for source file checksums operations."
 msgstr ""
+"Impossibile trovare il binario %s richiesto per le operazioni sui checksum "
+"dei sorgenti."
 
 #: scripts/makepkg.sh.in:1039
 msgid "Cannot find the %s binary required for distributed compilation."
@@ -422,6 +425,7 @@ msgstr "  --nosign         Non crea una firma per il pacchetto"
 #: scripts/makepkg.sh.in:1194
 msgid "  --packagelist    Only list package filepaths that would be produced"
 msgstr ""
+"  --packagelist    Elenca solo i percorsi dei file che sarebbero prodotti"
 
 #: scripts/makepkg.sh.in:1195
 msgid "  --printsrcinfo   Print the generated SRCINFO and exit"
@@ -490,6 +494,10 @@ msgid ""
 "free software; see the source for copying conditions.\\nThere is NO "
 "WARRANTY, to the extent permitted by law.\\n"
 msgstr ""
+"Copyright (c) 2006-2018 Team di Sviluppo per Pacman <pacman-dev@archlinux."
+"org>.\\nCopyright (C) 2002-2006 Judd Vinet <jvinet@zeroflux.org>.\\n"
+"\\nQuesto è un software libero; vedere il codice sorgente per le condizioni "
+"di copia.\\nNon c'è GARANZIA, nei termini di legge.\\n"
 
 #: scripts/makepkg.sh.in:1318 scripts/repo-add.sh.in:743
 msgid "%s signal caught. Exiting..."
@@ -510,6 +518,7 @@ msgstr ""
 #: scripts/makepkg.sh.in:1420
 msgid "Do not use the %s option. This option is only for internal use by %s."
 msgstr ""
+"Non usare l'opzione %s. Questa opzione è solo ad uso interno da parte di %s."
 
 #: scripts/makepkg.sh.in:1435
 msgid "%s does not exist."
@@ -680,6 +689,11 @@ msgid ""
 "This is free software; see the source for copying conditions.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"Copyright (c) 2013-2018 Team di Sviluppo per Pacman <pacman-dev@archlinux."
+"org>.\n"
+"Questo è un software libero; vedere il codice sorgente per le condizioni di "
+"copia.\n"
+"Non c'è GARANZIA, nei termini di legge.\n"
 
 #: scripts/pacman-db-upgrade.sh.in:41
 msgid "Upgrade the local pacman database to a newer format"
@@ -692,6 +706,7 @@ msgstr "opzioni:"
 #: scripts/pacman-db-upgrade.sh.in:46
 msgid "  -d, --dbpath <path>  set an alternate database location"
 msgstr ""
+"  -d, --dbpath <path>  imposta una collocazione alternativa per il database"
 
 #: scripts/pacman-db-upgrade.sh.in:47
 msgid "  -h, --help           show this help message and exit"
@@ -719,6 +734,9 @@ msgid ""
 "\\nThis is free software; see the source for copying conditions.\\nThere is "
 "NO WARRANTY, to the extent permitted by law.\\n"
 msgstr ""
+"Copyright (c) 2010-2018 Team di Sviluppo per Pacman <pacman-dev@archlinux."
+"org>.\\nQuesto è un software libero; vedere il codice sorgente per le "
+"condizioni di copia.\\nNon c'è GARANZIA, nei termini di legge.\\n"
 
 #: scripts/pacman-db-upgrade.sh.in:118 scripts/repo-add.sh.in:514
 msgid "%s does not exist or is not a directory."
@@ -1231,6 +1249,9 @@ msgid ""
 "\\nThis is free software; see the source for copying conditions.\\nThere is "
 "NO WARRANTY, to the extent permitted by law.\\n"
 msgstr ""
+"Copyright (c) 2006-2018 Team di Sviluppo per Pacman <pacman-dev@archlinux."
+"org>\\n\\nQuesto è un software libero; vedere il codice sorgente per le "
+"condizioni di copia.\\nNon c'è GARANZIA, nei termini di legge.\\n"
 
 #: scripts/repo-add.sh.in:146
 msgid "No database entry for package '%s'."
@@ -1420,7 +1441,7 @@ msgstr "Impossibile firmare il pacchetto."
 
 #: scripts/libmakepkg/integrity/generate_signature.sh.in:56
 msgid "Signing package(s)..."
-msgstr ""
+msgstr "Firma dei pacchetti in corso..."
 
 #: scripts/libmakepkg/integrity/verify_checksum.sh.in:64
 msgid "Integrity checks are missing for: %s"
@@ -1543,7 +1564,7 @@ msgstr "%s non dovrebbe essere un array"
 
 #: scripts/libmakepkg/lint_package.sh.in:41
 msgid "Checking for packaging issues..."
-msgstr ""
+msgstr "Controllo per il rilascio dei pacchetti in corso..."
 
 #: scripts/libmakepkg/lint_package/build_references.sh.in:36
 msgid "Package contains reference to %s"
@@ -1551,11 +1572,11 @@ msgstr "Il pacchetto contiene dei riferimenti a %s"
 
 #: scripts/libmakepkg/lint_package/dotfiles.sh.in:34
 msgid "Dotfile found in package root '%s'"
-msgstr ""
+msgstr "File nascosto trovato nella directory radice del pacchetto '%s'"
 
 #: scripts/libmakepkg/lint_package/file_names.sh.in:36
 msgid "Package contains paths with newlines"
-msgstr ""
+msgstr "Il pacchetto contiene dei percorsi con ritorni a capo"
 
 #: scripts/libmakepkg/lint_package/missing_backup.sh.in:35
 msgid "%s entry file not in package : %s"
@@ -1612,7 +1633,7 @@ msgstr "%s deve essere un decimale, non %s"
 #: scripts/libmakepkg/lint_pkgbuild/pkgver.sh.in:41
 msgid ""
 "%s is not allowed to contain colons, forward slashes, hyphens or whitespace."
-msgstr ""
+msgstr "%s non può contenere due punti, barre, trattini o spazi vuoti."
 
 #: scripts/libmakepkg/lint_pkgbuild/provides.sh.in:46
 msgid "%s array cannot contain comparison (< or >) operators."
@@ -1727,6 +1748,7 @@ msgstr "Impossibile aggiornare il repository %s %s"
 #: scripts/libmakepkg/source/git.sh.in:116
 msgid "Failure while checking out version %s, the git tag has been forged"
 msgstr ""
+"Errore durante il checkout della version %s, il tag Git è stato falsificato"
 
 #: scripts/libmakepkg/source/local.sh.in:39
 msgid "%s was not found in the build directory and is not a URL."
@@ -1804,8 +1826,8 @@ msgstr "Impossibile spostarsi nella directory %s"
 
 #: scripts/libmakepkg/util/util.sh.in:89
 msgid "Failed to create the directory $%s (%s)."
-msgstr ""
+msgstr "Impossibile creare la directory $%s (%s)."
 
 #: scripts/libmakepkg/util/util.sh.in:92
 msgid "You do not have write permission for the directory $%s (%s)."
-msgstr ""
+msgstr "Non si dispone dei permessi in scrittura per la directory $%s (%s)."

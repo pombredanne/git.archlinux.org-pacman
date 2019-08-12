@@ -5,14 +5,15 @@
 # Translators:
 # , 2011
 # Daniel Sandman <revoltism@gmail.com>, 2013,2015
+# Johan R. <jreinhed@protonmail.com>, 2019
 # Kim Svensson <ks@linux.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-05-16 20:56+0000\n"
-"Last-Translator: Kristoffer Andersson <kode.kristoff@gmail.com>\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
+"PO-Revision-Date: 2019-08-07 13:03+0000\n"
+"Last-Translator: Johan R. <jreinhed@protonmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/sv/)\n"
 "Language: sv\n"
@@ -51,7 +52,7 @@ msgstr "varning given vid extrahering av %s (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "kunde inte extrahera %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "kunde inte döpa om %s till %s (%s)\n"
@@ -378,7 +379,7 @@ msgstr ""
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s verkar vara trunkerad: %jd/%jd bytes\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "misslyckades ladda ner %s\n"
@@ -745,7 +746,7 @@ msgstr ""
 #: lib/libalpm/hook.c:676
 #, c-format
 msgid "could not open file: %s%s: %s\n"
-msgstr ""
+msgstr "kunde inte öppna fil: %s%s: %s\n"
 
 #: lib/libalpm/hook.c:696 lib/libalpm/util.c:259
 #, c-format
@@ -757,7 +758,7 @@ msgstr ""
 #: lib/libalpm/hook.c:722
 #, c-format
 msgid "could not read directory: %s: %s\n"
-msgstr ""
+msgstr "kunde inte läsa katalog: %s: %s\n"
 
 #: lib/libalpm/package.c:586
 #, c-format

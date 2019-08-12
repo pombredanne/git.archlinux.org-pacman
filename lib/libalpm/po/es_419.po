@@ -11,14 +11,14 @@
 # ice <ice.modding@gmail.com>, 2016
 # Leonel <leonelmalon@gmail.com>, 2013
 # neiko <neikokz+tsfx@gmail.com>, 2011
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2015,2017
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2015
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2015,2017
+# prflr88 <prflr88@gmail.com>, 2015,2017
+# prflr88 <prflr88@gmail.com>, 2015
+# prflr88 <prflr88@gmail.com>, 2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
 "PO-Revision-Date: 2018-05-15 01:05+0000\n"
 "Last-Translator: Allan McRae <allan@archlinux.org>\n"
 "Language-Team: Spanish (Latin America) (http://www.transifex.com/toofishes/"
@@ -59,7 +59,7 @@ msgstr "alerta producida mientras se extraía %s (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "no se pudo extraer %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "no se pudo renombrar %s a %s (%s)\n"
@@ -397,7 +397,7 @@ msgstr ""
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s parece estar incompleto: %jd/%jd bytes\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "no se pudo descargar %s\n"

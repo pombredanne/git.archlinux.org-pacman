@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
 "PO-Revision-Date: 2018-05-15 01:05+0000\n"
 "Last-Translator: Allan McRae <allan@archlinux.org>\n"
 "Language-Team: Korean (http://www.transifex.com/toofishes/archlinux-pacman/"
@@ -56,7 +56,7 @@ msgstr "%s 추출 시 경고 발생 (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "%s를 추출할 수 없습니다. (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "%s의 이름을 %s로 바꾸지 못했습니다.(%s)\n"
@@ -376,7 +376,7 @@ msgstr "파일 '%s'를 %s에서 가져오는 데 실패 : 예상 내려받기 �
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s가 잘린 것 같습니다.: %jd/%jd 바이트\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "%s를 다운받지 못했습니다.\n"

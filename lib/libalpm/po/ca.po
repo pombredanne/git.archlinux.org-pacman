@@ -10,14 +10,14 @@
 # Josep <jpreales@gmail.com>, 2011,2013
 # Josep <jpreales@gmail.com>, 2011,2013
 # Josep <jpreales@gmail.com>, 2011
-# Davidmp <medipas@gmail.com>, 2015-2018
+# Davidmp <medipas@gmail.com>, 2015-2019
 # Ramon Buldó <rbuldo@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-07-27 12:31+0000\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
+"PO-Revision-Date: 2019-02-18 17:13+0000\n"
 "Last-Translator: Davidmp <medipas@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/ca/)\n"
@@ -57,7 +57,7 @@ msgstr "advertència en extreure %s (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "no s'ha pogut extreure %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "no s'ha pogut canviar el nom %s a %s (%s)\n"
@@ -377,15 +377,15 @@ msgstr "ha fallat la recuperació del fitxer \"%s\" des de %s: %s\n"
 #, c-format
 msgid "failed retrieving file '%s' from %s : expected download size exceeded\n"
 msgstr ""
-"ha fallat la recuperació del fitxer \"%s\" des de %s: mida de la baixada "
-"superior a l'esperada\n"
+"ha fallat recuperar el fitxer \"%s\" des de %s: mida de la baixada superior "
+"a l'esperada\n"
 
 #: lib/libalpm/dload.c:528
 #, c-format
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s sembla que està truncat: %jd/%jd bytes\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "ha fallat baixar %s\n"
@@ -898,12 +898,12 @@ msgstr "%s: s'ha ignorat l'actualització del paquet (%s => %s)\n"
 #: lib/libalpm/sync.c:110
 #, c-format
 msgid "%s: ignoring package downgrade (%s => %s)\n"
-msgstr "%s: s'ha ignorat la desactualització del paquet (%s => %s)\n"
+msgstr "%s: s'ha ignorat la degradació del paquet (%s => %s)\n"
 
 #: lib/libalpm/sync.c:113
 #, c-format
 msgid "%s: downgrading from version %s to version %s\n"
-msgstr "%s: desactualitzant de la versió %s a la versió %s\n"
+msgstr "%s: es degrada de la versió %s a la versió %s\n"
 
 #: lib/libalpm/sync.c:119
 #, c-format

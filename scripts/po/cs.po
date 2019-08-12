@@ -6,8 +6,8 @@
 # Dan McGee <dpmcgee@gmail.com>, 2011
 # David Macek <david.macek.0@gmail.com>, 2018
 # IAmNotImportant, 2017
-# Jaroslav Lichtblau <dragonlord@seznam.cz>, 2014-2016
-# Jaroslav Lichtblau <dragonlord@seznam.cz>, 2014
+# Jaroslav Lichtblau <jlichtblau@seznam.cz>, 2014-2016
+# Jaroslav Lichtblau <jlichtblau@seznam.cz>, 2014
 # Marek Otahal <markotahalREMOVETHIS@gmail.com>, 2011
 # mmm <markotahal@gmail.com>, 2013
 # mmm <markotahal@gmail.com>, 2011

@@ -15,14 +15,15 @@
 # R00KIE <registosites@hotmail.com>, 2011,2016
 # R00KIE <registosites@hotmail.com>, 2016-2017
 # R00KIE <registosites@hotmail.com>, 2011
+# Rui <xymarior@yandex.com>, 2019
 # c0d75bae60e6967ec54315cff4da5848, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-07-19 14:06+1000\n"
-"PO-Revision-Date: 2018-07-19 04:15+0000\n"
-"Last-Translator: Bruno Guerreiro <american.jesus.pt@gmail.com>\n"
+"PO-Revision-Date: 2019-02-06 18:37+0000\n"
+"Last-Translator: Rui <xymarior@yandex.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/toofishes/archlinux-"
 "pacman/language/pt/)\n"
 "Language: pt\n"
@@ -74,7 +75,7 @@ msgstr "a instalar %s...\n"
 #: src/pacman/callback.c:221
 #, c-format
 msgid "upgrading %s...\n"
-msgstr "a actualizar %s...\n"
+msgstr "a atualizar %s...\n"
 
 #: src/pacman/callback.c:224
 #, c-format
@@ -84,7 +85,7 @@ msgstr "a reinstalar %s...\n"
 #: src/pacman/callback.c:227
 #, c-format
 msgid "downgrading %s...\n"
-msgstr "a desactualizar %s...\n"
+msgstr "a desatualizar %s...\n"
 
 #: src/pacman/callback.c:230
 #, c-format
@@ -159,7 +160,7 @@ msgstr "%s instalado como %s.pacnew\n"
 #: src/pacman/callback.c:337 src/pacman/callback.c:343
 #, c-format
 msgid "%s saved as %s.pacsave\n"
-msgstr "%s salvo como %s.pacsave\n"
+msgstr "%s guardado como %s.pacsave\n"
 
 #: src/pacman/callback.c:395
 #, c-format
@@ -188,10 +189,10 @@ msgid ""
 msgid_plural ""
 "The following packages cannot be upgraded due to unresolvable dependencies:\n"
 msgstr[0] ""
-"O seguinte pacote não pode ser actualizado devido a dependências não "
+"O seguinte pacote não pode ser atualizado devido a dependências não "
 "resolvidas:\n"
 msgstr[1] ""
-"Os seguintes pacotes não pode ser actualizados devido a dependências não "
+"Os seguintes pacotes não podem ser atualizados devido a dependências não "
 "resolvidas:\n"
 
 #: src/pacman/callback.c:447
@@ -235,12 +236,12 @@ msgstr "a instalar"
 #: src/pacman/callback.c:548
 #, c-format
 msgid "upgrading"
-msgstr "a actualizar"
+msgstr "a atualizar"
 
 #: src/pacman/callback.c:551
 #, c-format
 msgid "downgrading"
-msgstr "a desactualizar"
+msgstr "a desatualizar"
 
 #: src/pacman/callback.c:554
 #, c-format
@@ -379,7 +380,7 @@ msgstr[1] "malloc falhou: não foi possível alocar %zu bytes\n"
 #: src/pacman/conf.c:252
 #, c-format
 msgid "could not get current working directory\n"
-msgstr "não foi possível saber a directoria actual\n"
+msgstr "não foi possível obter o diretório de trabalho atual\n"
 
 #: src/pacman/conf.c:257
 #, c-format
@@ -419,7 +420,7 @@ msgstr ""
 msgid ""
 "config file %s, line %d: directive '%s' in section '%s' not recognized.\n"
 msgstr ""
-"ficheiro de configuração %s, linha %d: directiva '%s' na secção '%s' não "
+"ficheiro de configuração %s, linha %d: diretiva '%s' na secção '%s' não "
 "reconhecida.\n"
 
 #: src/pacman/conf.c:623
@@ -567,7 +568,7 @@ msgstr ""
 #: src/pacman/package.c:99
 #, c-format
 msgid "Architecture"
-msgstr "Arquitectura"
+msgstr "Arquitetura"
 
 #: src/pacman/package.c:100
 #, c-format
@@ -840,7 +841,7 @@ msgstr "  -u, --unneeded       remover aplicações desnecessárias\n"
 #: src/pacman/pacman.c:132 src/pacman/pacman.c:167
 #, c-format
 msgid "      --needed         do not reinstall up to date packages\n"
-msgstr "      --needed         não reinstalar pacotes actualizados\n"
+msgstr "      --needed         não reinstalar pacotes atualizados\n"
 
 #: src/pacman/pacman.c:137
 #, c-format
@@ -950,7 +951,7 @@ msgstr ""
 #, c-format
 msgid "  -u, --upgrades       list outdated packages [filter]\n"
 msgstr ""
-"  -u, --upgrades       listar todos os pacotes desactualizados [filtro]\n"
+"  -u, --upgrades       listar todos os pacotes desatualizados [filtro]\n"
 
 #: src/pacman/pacman.c:156
 #, c-format
@@ -1093,7 +1094,7 @@ msgid ""
 "      --ignore <pkg>   ignore a package upgrade (can be used more than "
 "once)\n"
 msgstr ""
-"      --ignore <pkg>   ignorar a actualização de um pacote (pode ser usado "
+"      --ignore <pkg>   ignorar a atualização de um pacote (pode ser usado "
 "mais de uma vez)\n"
 
 #: src/pacman/pacman.c:197
@@ -1206,9 +1207,7 @@ msgstr ""
 #: src/pacman/pacman.c:219
 #, c-format
 msgid "      --hookdir <dir>  set an alternate hook location\n"
-msgstr ""
-"      --hookdir <directoria>  define uma localização alternativa para os "
-"hooks\n"
+msgstr "      --hookdir <dir>    define um local alternativo para hook\n"
 
 #: src/pacman/pacman.c:220
 #, c-format
@@ -1305,7 +1304,7 @@ msgstr "opção inválida '--%s'\n"
 #: src/pacman/pacman.c:1166
 #, c-format
 msgid "you cannot perform this operation unless you are root.\n"
-msgstr "não pode realizar esta operação a menos que seja o root.\n"
+msgstr "não pode realizar esta operação a não ser que seja o root.\n"
 
 #: src/pacman/pacman.c:1172
 #, c-format
@@ -1527,7 +1526,7 @@ msgstr "'%s' é um ficheiro, quererá dizer %s em vez de %s?\n"
 #: src/pacman/sync.c:699
 #, c-format
 msgid "Starting full system upgrade...\n"
-msgstr "A iniciar a actualização do sistema...\n"
+msgstr "A iniciar a atualização completa do sistema...\n"
 
 #: src/pacman/sync.c:720
 #, c-format
@@ -1597,7 +1596,7 @@ msgstr "%s é inválido ou está corrompido\n"
 #: src/pacman/sync.c:853
 #, c-format
 msgid "Errors occurred, no packages were upgraded.\n"
-msgstr "Ocorreram alguns erros, portanto, nenhum pacote foi actualizado.\n"
+msgstr "Ocorreram alguns erros, por isso nenhum pacote foi atualizado.\n"
 
 #: src/pacman/upgrade.c:56
 #, c-format
@@ -1647,12 +1646,12 @@ msgstr "a base de dados '%s' não é válida (%s)\n"
 #: src/pacman/util.c:161
 #, c-format
 msgid "failed to update %s (%s)\n"
-msgstr "falha ao actualizar %s (%s)\n"
+msgstr "falha ao atualizar %s (%s)\n"
 
 #: src/pacman/util.c:165
 #, c-format
 msgid " %s is up to date\n"
-msgstr " %s está actualizado\n"
+msgstr " %s está atualizado\n"
 
 #: src/pacman/util.c:170
 #, c-format
@@ -1692,7 +1691,7 @@ msgstr "Chave desconhecida"
 #: src/pacman/util.c:772
 #, c-format
 msgid "Key disabled"
-msgstr "Chave desctivada"
+msgstr "Chave desativada"
 
 #: src/pacman/util.c:775
 #, c-format
@@ -1807,7 +1806,7 @@ msgstr "número inválido: %s\n"
 #: src/pacman/util.c:1419
 #, c-format
 msgid "Enter a selection (default=all)"
-msgstr "Escolha uma selecção (padrão=todos)"
+msgstr "Escolha uma seleção (padrão=todos)"
 
 #: src/pacman/util.c:1486
 #, c-format

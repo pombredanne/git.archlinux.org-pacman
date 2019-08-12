@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Alexander F Rødseth <rodseth@gmail.com>, 2015-2018
+# Alexander F Rødseth <rodseth@gmail.com>, 2015-2019
 # Alexander F Rødseth <rodseth@gmail.com>, 2011-2013
 # Harald H. <haarektrans@gmail.com>, 2016
 # Jon Gjengset <jon@thesquareplanet.com>, 2011,2013-2015,2017
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-12-05 21:20+0000\n"
+"PO-Revision-Date: 2019-04-21 15:46+0000\n"
 "Last-Translator: Alexander F Rødseth <rodseth@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/toofishes/"
 "archlinux-pacman/language/nb/)\n"
@@ -215,8 +215,7 @@ msgstr "Fant ikke programmet %s, for å håndtere avhengigheter."
 
 #: scripts/makepkg.sh.in:994
 msgid "Cannot find the %s binary. Will use %s to acquire root privileges."
-msgstr ""
-"Fant ikke programmet %s. Bruker %s for å skaffe superbrukerprivilegier."
+msgstr "Fant ikke programmet %s. Bruker %s for å skaffe tilgang som root."
 
 #: scripts/makepkg.sh.in:1001
 msgid "Cannot find the %s binary."
@@ -251,7 +250,7 @@ msgstr "Fant ikke programmet %s, for å renske objektfiler."
 
 #: scripts/makepkg.sh.in:1063
 msgid "Cannot find the %s binary required for compressing man and info pages."
-msgstr "Fant ikke programmet %s, for å komprimere manualer og infosider."
+msgstr "Fant ikke %s, som trengs for å komprimere manualer og infosider."
 
 #: scripts/makepkg.sh.in:1083
 msgid "A package has already been built, installing existing package..."
@@ -488,8 +487,7 @@ msgid ""
 "Running %s as root is not allowed as it can cause permanent,\\ncatastrophic "
 "damage to your system."
 msgstr ""
-"Det er ikke tillatt å kjøre %s med rotbrukeren\\nfordi det kan kludre til "
-"hele systemet."
+"Det er ikke mulig å kjøre %s som root\\nfordi det kan rote til systemet."
 
 #: scripts/makepkg.sh.in:1420
 msgid "Do not use the %s option. This option is only for internal use by %s."
@@ -683,7 +681,7 @@ msgstr "-h, --help vis denne hjelpemeldingen og avslutt"
 
 #: scripts/pacman-db-upgrade.sh.in:48
 msgid "  -r, --root <path>    set an alternate installation root"
-msgstr "-r, --root <sti> bruk en annen rotmappe for installasjonen"
+msgstr "-r, --root <sti> bruk en annen bunnmappe for installasjonen"
 
 #: scripts/pacman-db-upgrade.sh.in:49
 msgid "  -V, --version        show version information and exit"
@@ -739,7 +737,8 @@ msgstr "Database fra før versjon 4.2 funnet - oppgraderer..."
 #: scripts/pacman-db-upgrade.sh.in:181
 msgid "symlink '%s' points outside pacman root, manual repair required"
 msgstr ""
-"lenkefil '%s' peker utenfor roten brukt av pacman; manuell fiks nødvendig"
+"den symbolske lenken '%s' peker utenfor pacman sin hovedmappe, dette må "
+"ordnes manuelt"
 
 #: scripts/pacman-key.sh.in:59
 msgid "Usage: %s [options] operation [targets]"
@@ -1000,7 +999,7 @@ msgstr "Fant ikke programmet %s, for alle %s operasjoner."
 
 #: scripts/pacman-key.sh.in:573
 msgid "%s needs to be run as root for this operation."
-msgstr "%s må kjøres som root, for denne handlingen."
+msgstr "%s må kjøres som root"
 
 #: scripts/pacman-key.sh.in:579
 msgid "%s configuration file '%s' not found."
@@ -1528,7 +1527,7 @@ msgstr "Pakken inneholder referanser til %s"
 
 #: scripts/libmakepkg/lint_package/dotfiles.sh.in:34
 msgid "Dotfile found in package root '%s'"
-msgstr "Fant punktumfil nederst i pakken '%s'"
+msgstr "Fant punktumfil i pakkemappen '%s'"
 
 #: scripts/libmakepkg/lint_package/file_names.sh.in:36
 msgid "Package contains paths with newlines"
@@ -1741,7 +1740,7 @@ msgstr "Fjerner unødvendige symboler fra binær- og biblioteksfiler..."
 
 #: scripts/libmakepkg/tidy/zipman.sh.in:35
 msgid "Compressing man and info pages..."
-msgstr "Komprimener bruksanvisninger (man og info)..."
+msgstr "Komprimerer manualer og infosider..."
 
 #: scripts/libmakepkg/util/compress.sh.in:44
 msgid "'%s' is not a valid archive extension."

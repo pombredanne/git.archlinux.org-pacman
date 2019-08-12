@@ -11,14 +11,15 @@
 # Dan McGee <dpmcgee@gmail.com>, 2011
 # Kiprianas Spiridonovas <k.spiridonovas@gmail.com>, 2012-2013
 # Moo, 2015-2018
+# Tautvydas Ž., 2019
 # Dan McGee <dpmcgee@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-07-19 14:06+1000\n"
-"PO-Revision-Date: 2018-07-27 13:48+0000\n"
-"Last-Translator: Moo\n"
+"PO-Revision-Date: 2019-08-09 19:33+0000\n"
+"Last-Translator: Tautvydas Ž.\n"
 "Language-Team: Lithuanian (http://www.transifex.com/toofishes/archlinux-"
 "pacman/language/lt/)\n"
 "Language: lt\n"
@@ -1049,7 +1050,7 @@ msgstr ""
 #: src/pacman/pacman.c:174
 #, c-format
 msgid "  -q, --quiet          suppress output of success messages\n"
-msgstr ""
+msgstr "  -q, --quiet          nerodyti pavykusio veiksmo žinučių\n"
 
 #: src/pacman/pacman.c:182
 #, c-format
@@ -1081,6 +1082,9 @@ msgid ""
 "                       overwrite conflicting files (can be used more than "
 "once)\n"
 msgstr ""
+"      --overwrite <path>\n"
+"                       perrašyti konfliktuojančius failus (galima naudoti "
+"daugiau nei vieną kartą)\n"
 
 #: src/pacman/pacman.c:194
 #, c-format
@@ -1193,6 +1197,7 @@ msgstr "      --arch <arch>      nurodyti alternatyvią architektūrą\n"
 #, c-format
 msgid "      --sysroot        operate on a mounted guest system (root-only)\n"
 msgstr ""
+"      --sysroot        veikti prijungtoj svečio sistemoje (root-only)\n"
 
 #: src/pacman/pacman.c:218
 #, c-format
@@ -1245,6 +1250,8 @@ msgid ""
 "      --disable-download-timeout\n"
 "                       use relaxed timeouts for download\n"
 msgstr ""
+"      --disable-download-timeout\n"
+"                       išjungti siuntimų laiko pasibaigimą\n"
 
 #: src/pacman/pacman.c:247
 #, c-format
@@ -1279,7 +1286,7 @@ msgstr "„%s“ nėra teisingas derinimo informacijos lygis\n"
 #: src/pacman/pacman.c:721
 #, c-format
 msgid "option --force is deprecated; use --overwrite instead\n"
-msgstr ""
+msgstr "parametras --force yra pasenęs; naudokite --overwrite\n"
 
 #: src/pacman/pacman.c:981
 #, c-format
@@ -1304,7 +1311,7 @@ msgstr "jūs negalite įvykdyti šios komandos jei nesate root naudotojas.\n"
 #: src/pacman/pacman.c:1172
 #, c-format
 msgid "chroot to '%s' failed: (%s)\n"
-msgstr ""
+msgstr "pakeisti root į '%s' nepavyko: (%s)\n"
 
 #: src/pacman/pacman.c:1206
 #, c-format
@@ -1344,7 +1351,7 @@ msgstr "nenurodytas failas --owns\n"
 #: src/pacman/query.c:170
 #, c-format
 msgid "empty string passed to file owner query\n"
-msgstr ""
+msgstr "tuščia eilutė perduota failo savininko užklausai\n"
 
 #: src/pacman/query.c:197 src/pacman/query.c:219
 #, c-format
@@ -1505,10 +1512,10 @@ msgstr "saugykla „%s“ nerasta.\n"
 #, c-format
 msgid "There is %d member in group %s%s%s:\n"
 msgid_plural "There are %d members in group %s%s%s:\n"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Grupėje %2$s%3$s%4$s yra %1$d narys:\n"
+msgstr[1] "Grupėje %2$s%3$s%4$s yra %1$d nariai:\n"
+msgstr[2] "Grupėje %2$s%3$s%4$s yra %1$d narių:\n"
+msgstr[3] "Grupėje %2$s%3$s%4$s yra %1$d narių:\n"
 
 #: src/pacman/sync.c:640
 #, c-format

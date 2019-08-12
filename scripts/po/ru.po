@@ -6,22 +6,22 @@
 # AlexanderR <alexander.r@gmx.com>, 2012
 # AlexanderR <alexander.r@gmx.com>, 2012
 # Alex Talker <alextalker7@gmail.com>, 2014
-# Igor <f2404@yandex.ru>, 2018
+# Igor <f2404@yandex.ru>, 2018-2019
 # Ilya Ostapenko (Jacobtey) <jacobtey@gmail.com>, 2017
 # Ivan Yurasov <vdk@gmx.us>, 2011
 # kyak <peselnik@gmail.com>, 2013
 # partizan <serg.partizan@gmail.com>, 2015,2017
 # kyak <peselnik@gmail.com>, 2013
 # partizan <serg.partizan@gmail.com>, 2015,2017
-# Vasiliy Polyakov <vp@psu.ru>, 2015
+# be1bb8e720f95f5c175a5f1f3aa8f780, 2015
 # Анатолий Валерианович <ffox909@mail.ru>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-07-19 04:18+0000\n"
-"Last-Translator: Allan McRae <allan@archlinux.org>\n"
+"PO-Revision-Date: 2019-06-18 20:19+0000\n"
+"Last-Translator: Igor <f2404@yandex.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/ru/)\n"
 "Language: ru\n"
@@ -421,6 +421,7 @@ msgstr "      --nosign         Не создавать подпись для п�
 #: scripts/makepkg.sh.in:1194
 msgid "  --packagelist    Only list package filepaths that would be produced"
 msgstr ""
+"  --packagelist    Только вывести пути к файлам пакета, которые будут созданы"
 
 #: scripts/makepkg.sh.in:1195
 msgid "  --printsrcinfo   Print the generated SRCINFO and exit"

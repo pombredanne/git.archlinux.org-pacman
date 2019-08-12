@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Alexander F Rødseth <rodseth@gmail.com>, 2014-2018
+# Alexander F Rødseth <rodseth@gmail.com>, 2014-2019
 # Alexander F Rødseth <rodseth@gmail.com>, 2011-2014
 # Harald H. <haarektrans@gmail.com>, 2015
 # Harald H. <haarektrans@gmail.com>, 2015
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-07-19 14:06+1000\n"
-"PO-Revision-Date: 2018-12-05 21:10+0000\n"
+"PO-Revision-Date: 2019-04-23 08:34+0000\n"
 "Last-Translator: Alexander F Rødseth <rodseth@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/toofishes/"
 "archlinux-pacman/language/nb/)\n"
@@ -27,12 +27,12 @@ msgstr ""
 #: src/pacman/callback.c:182
 #, c-format
 msgid "Running pre-transaction hooks...\n"
-msgstr "Bruker innledende hekter...\n"
+msgstr "Utfører innledende kommandoer...\n"
 
 #: src/pacman/callback.c:184
 #, c-format
 msgid "Running post-transaction hooks...\n"
-msgstr "Bruker avsluttende hekter...\n"
+msgstr "Utfører sluttførende kommandoer...\n"
 
 #: src/pacman/callback.c:197
 #, c-format
@@ -132,7 +132,7 @@ msgstr "feilet.\n"
 #: src/pacman/callback.c:291
 #, c-format
 msgid "Retrieving packages...\n"
-msgstr "Finner frem pakker...\n"
+msgstr "Henter frem pakker...\n"
 
 #: src/pacman/callback.c:295
 #, c-format
@@ -457,7 +457,7 @@ msgstr "problem ved valg av gpgdir '%s' (%s)\n"
 #: src/pacman/conf.c:738
 #, c-format
 msgid "problem adding hookdir '%s' (%s)\n"
-msgstr "kan ikke legge til hektemappe '%s' (%s)\n"
+msgstr "kan ikke legge til mappe med hekter '%s' (%s)\n"
 
 #: src/pacman/conf.c:760
 #, c-format
@@ -795,7 +795,8 @@ msgid ""
 "use '%s {-h --help}' with an operation for available options\n"
 msgstr ""
 "\n"
-"bruk '%s {-h --help}' sammen med en handling, for tilgjengelige valg\n"
+"prøv '%s {-h --help}' sammen med en handling, for å se videre "
+"valgmuligheter\n"
 
 #: src/pacman/pacman.c:125
 #, c-format
@@ -957,7 +958,7 @@ msgstr ""
 #: src/pacman/pacman.c:160
 #, c-format
 msgid "  -l, --list <repo>    view a list of packages in a repo\n"
-msgstr "  -l, --list <brønn>   vis en liste over pakker i en pakkebrønn\n"
+msgstr "  -l, --list <brønn>   list opp pakker i en gitt pakkebrønn\n"
 
 #: src/pacman/pacman.c:162
 #, c-format
@@ -972,7 +973,7 @@ msgstr ""
 msgid ""
 "  -u, --sysupgrade     upgrade installed packages (-uu enables downgrades)\n"
 msgstr ""
-"  -u, --sysupgrade oppgradér installerte pakker (--uu tillater "
+"  -u, --sysupgrade     oppgrader alle installerte pakker (--uu tillater "
 "nedgraderinger)\n"
 
 #: src/pacman/pacman.c:164
@@ -1132,7 +1133,7 @@ msgid ""
 "                       specify how the targets should be printed\n"
 msgstr ""
 "      --print-format <string>\n"
-"                       angir hvordan valgene skal listes\n"
+"                       angi hvordan valgene skal listes\n"
 
 #: src/pacman/pacman.c:213
 #, c-format
@@ -1142,12 +1143,12 @@ msgstr "  -b, --dbpath <fil>   bruk en annen databaseplassering\n"
 #: src/pacman/pacman.c:214
 #, c-format
 msgid "  -r, --root <path>    set an alternate installation root\n"
-msgstr "  -r, --root <mappe>   bruk en annen rotmappe for installasjonen\n"
+msgstr "  -r, --root <mappe>   bruk en annen bunnmappe for installasjonen\n"
 
 #: src/pacman/pacman.c:215
 #, c-format
 msgid "  -v, --verbose        be verbose\n"
-msgstr "  -v, --verbose        prat mer\n"
+msgstr "  -v, --verbose        vis mer informasjon\n"
 
 #: src/pacman/pacman.c:216
 #, c-format
@@ -1158,7 +1159,8 @@ msgstr "      --arch <arch>    bruk en annen arkitektur\n"
 #, c-format
 msgid "      --sysroot        operate on a mounted guest system (root-only)\n"
 msgstr ""
-"      --sysroot        ta i bruk et montert gjestesystem (krever rotbruker)\n"
+"      --sysroot        ta i bruk et montert gjestesystem (krever tilgang som "
+"root)\n"
 
 #: src/pacman/pacman.c:218
 #, c-format
@@ -1169,7 +1171,7 @@ msgstr ""
 #: src/pacman/pacman.c:219
 #, c-format
 msgid "      --hookdir <dir>  set an alternate hook location\n"
-msgstr "      --hookdir <mappe> bruk en annen hektemappe\n"
+msgstr "      --hookdir <mappe> bruk en annen mappe med hekter\n"
 
 #: src/pacman/pacman.c:220
 #, c-format
@@ -1268,7 +1270,7 @@ msgstr "ugyldig tilvalg '--%s'\n"
 #: src/pacman/pacman.c:1166
 #, c-format
 msgid "you cannot perform this operation unless you are root.\n"
-msgstr "denne handlingen krever rottilgang.\n"
+msgstr "dette kan bare utføres som root.\n"
 
 #: src/pacman/pacman.c:1172
 #, c-format
@@ -1570,7 +1572,7 @@ msgstr "minnet er fullt\n"
 #: src/pacman/upgrade.c:87
 #, c-format
 msgid "loading packages...\n"
-msgstr "laster pakker...\n"
+msgstr "Laster pakker...\n"
 
 #: src/pacman/util.c:81
 #, c-format
@@ -1588,7 +1590,7 @@ msgid ""
 "  if you're sure a package manager is not already\n"
 "  running, you can remove %s\n"
 msgstr ""
-"  hvis du vet at ingen pakkebehandler kjører,\n"
+"  hvis du vet at ingen pakkebehandler er i bruk,\n"
 "  kan du fjerne %s\n"
 
 #: src/pacman/util.c:97

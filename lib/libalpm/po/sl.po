@@ -6,6 +6,7 @@
 # Dejan Rožič <drozic1989@gmail.com>, 2014
 # ansich <mojmejlzaforume@gmail.com>, 2014
 # Dejan Rožič <drozic1989@gmail.com>, 2014
+# matevž lapajne <sivar.lapajne@gmail.com>, 2019
 # ansich <mojmejlzaforume@gmail.com>, 2014
 # Readage, 2014
 # smlu <smluprenos@gmail.com>, 2012
@@ -16,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-05-15 01:05+0000\n"
-"Last-Translator: Allan McRae <allan@archlinux.org>\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
+"PO-Revision-Date: 2019-08-09 07:40+0000\n"
+"Last-Translator: matevž lapajne <sivar.lapajne@gmail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/toofishes/archlinux-"
 "pacman/language/sl/)\n"
 "Language: sl\n"
@@ -58,7 +59,7 @@ msgstr "opozorilo podano med razširjanjem %s (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "ni mogoče razširiti %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "%s ni mogoče preimenovati v %s (%s)\n"
@@ -73,7 +74,7 @@ msgstr ""
 #: lib/libalpm/add.c:214
 #, c-format
 msgid "unable to extract %s%s: path too long"
-msgstr ""
+msgstr "ni mogoče razširiti %s%s: pot predolga"
 
 #: lib/libalpm/add.c:256
 #, c-format
@@ -103,7 +104,7 @@ msgstr ""
 #: lib/libalpm/add.c:315
 #, c-format
 msgid "unable to extract %s.pacnew: path too long"
-msgstr ""
+msgstr "ni mogoče razširiti %s.pacnew: pot predolga"
 
 #: lib/libalpm/add.c:508 lib/libalpm/util.c:334 lib/libalpm/util.c:592
 #, c-format
@@ -255,7 +256,7 @@ msgstr ""
 #: lib/libalpm/be_sync.c:524
 #, c-format
 msgid "could not read db '%s' (%s)\n"
-msgstr ""
+msgstr "ni mogoče prebrati podatkovne baze '%s' (%s)\n"
 
 #: lib/libalpm/be_sync.c:558 lib/libalpm/be_sync.c:563
 #, c-format
@@ -321,7 +322,7 @@ msgstr "informacije o datotečnem sistemu ni bilo mogoče pridobiti\n"
 #: lib/libalpm/diskspace.c:242
 #, c-format
 msgid "could not get file information for %s\n"
-msgstr ""
+msgstr "ni mogoče dobiti informacije o datoteki za %s\n"
 
 #: lib/libalpm/diskspace.c:256 lib/libalpm/diskspace.c:315
 #, c-format
@@ -331,7 +332,7 @@ msgstr "priklopne točke za datoteko %s ni bilo mogoče določiti\n"
 #: lib/libalpm/diskspace.c:354
 #, c-format
 msgid "Partition %s too full: %jd blocks needed, %ju blocks free\n"
-msgstr ""
+msgstr "Razdelek %s je poln: potrebnih je %jd blokov, %jublokov je prostih\n"
 
 #: lib/libalpm/diskspace.c:379 lib/libalpm/diskspace.c:433
 #, c-format
@@ -385,7 +386,7 @@ msgstr ""
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "zdi se, da je %s prirezan: %jd/%jd bajtov \n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "spodletel prenos %s\n"
@@ -750,7 +751,7 @@ msgstr "ni mogoče odpreti mape: %s:%s\n"
 #: lib/libalpm/hook.c:676
 #, c-format
 msgid "could not open file: %s%s: %s\n"
-msgstr ""
+msgstr "ni mogoče odpreti datoteke: %s%s: %s\n"
 
 #: lib/libalpm/hook.c:696 lib/libalpm/util.c:259
 #, c-format
@@ -760,7 +761,7 @@ msgstr "ne morem prebrati statusa datoteke %s:%s\n"
 #: lib/libalpm/hook.c:722
 #, c-format
 msgid "could not read directory: %s: %s\n"
-msgstr ""
+msgstr "ni mogoče prebrati mape: %s: %s\n"
 
 #: lib/libalpm/package.c:586
 #, c-format
@@ -810,12 +811,12 @@ msgstr ""
 #: lib/libalpm/signing.c:207 lib/libalpm/signing.c:705
 #, c-format
 msgid "GPGME error: %s\n"
-msgstr ""
+msgstr "GPGME napaka: %s\n"
 
 #: lib/libalpm/signing.c:402
 #, c-format
 msgid "keyring is not writable\n"
-msgstr ""
+msgstr "v bazo ključev ni mogoče pisati\n"
 
 #: lib/libalpm/signing.c:460
 #, c-format
@@ -850,17 +851,17 @@ msgstr ""
 #: lib/libalpm/signing.c:889
 #, c-format
 msgid "%s: signature from \"%s\" should never be trusted\n"
-msgstr ""
+msgstr "%s: podpisu iz \"%s\" nikoli ne bi smeli zaupati\n"
 
 #: lib/libalpm/signing.c:901
 #, c-format
 msgid "%s: key \"%s\" is unknown\n"
-msgstr ""
+msgstr "%s: ključ \"%s\" je neznan\n"
 
 #: lib/libalpm/signing.c:910
 #, c-format
 msgid "%s: key \"%s\" is disabled\n"
-msgstr ""
+msgstr "%s: ključ \"%s\" je onemogočen\n"
 
 #: lib/libalpm/signing.c:914
 #, c-format

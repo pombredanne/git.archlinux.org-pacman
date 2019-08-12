@@ -9,8 +9,8 @@
 # dominik232 <dominik232@gmail.com>, 2016
 # kichawa <boxbolky@gmail.com>, 2013
 # Chris Warrick, 2011-2012
-# Marcin Mikołajczak <me@m4sk.in>, 2017
-# Marcin Mikołajczak <me@m4sk.in>, 2017
+# Marcin Mikołajczak <me@mkljczk.pl>, 2017
+# Marcin Mikołajczak <me@mkljczk.pl>, 2017
 # megamann, 2014
 # megamann, 2014,2016
 # megamann, 2016

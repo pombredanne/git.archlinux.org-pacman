@@ -7,14 +7,14 @@
 # ambaratti <ambaratti.listas@gmail.com>, 2015
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2012-2015
 # Rafael Fontenelle <rafaelff@gnome.org>, 2018
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2016-2018
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2016-2019
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2011-2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-07-19 15:45+0000\n"
+"PO-Revision-Date: 2019-04-15 20:43+0000\n"
 "Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/toofishes/"
 "archlinux-pacman/language/pt_BR/)\n"
@@ -436,7 +436,7 @@ msgstr "  --nosign         Não cria uma assinatura para o pacote"
 #: scripts/makepkg.sh.in:1194
 msgid "  --packagelist    Only list package filepaths that would be produced"
 msgstr ""
-" --packagelist Só lista caminhos de arquivo de pacotes a ser produzidos"
+"  --packagelist    Só lista caminhos de arquivo de pacotes a ser produzidos"
 
 #: scripts/makepkg.sh.in:1195
 msgid "  --printsrcinfo   Print the generated SRCINFO and exit"

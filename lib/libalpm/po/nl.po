@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
 "PO-Revision-Date: 2018-09-12 11:17+0000\n"
 "Last-Translator: W J <transifex@woutje.be>\n"
 "Language-Team: Dutch (http://www.transifex.com/toofishes/archlinux-pacman/"
@@ -57,7 +57,7 @@ msgstr "waarschuwing tijdens uitpakken van %s (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "kon %s (%s) niet uitpakken\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "kan %s niet hernoemen als %s (%s)\n"
@@ -381,7 +381,7 @@ msgstr ""
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s werd onderbroken: %jd/%jd bytes\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "downloaden van %s mislukt\n"

@@ -7,8 +7,8 @@
 # David Kolibáč <david@kolibac.cz>, 2011
 # David Macek <david.macek.0@gmail.com>, 2018
 # IAmNotImportant, 2017
-# Jaroslav Lichtblau <dragonlord@seznam.cz>, 2014-2015
-# Jaroslav Lichtblau <dragonlord@seznam.cz>, 2014
+# Jaroslav Lichtblau <jlichtblau@seznam.cz>, 2014-2015
+# Jaroslav Lichtblau <jlichtblau@seznam.cz>, 2014
 # mmm <markotahal@gmail.com>, 2013
 # mmm <markotahal@gmail.com>, 2011
 # IAmNotImportant, 2017
@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
 "PO-Revision-Date: 2018-05-15 06:59+0000\n"
 "Last-Translator: David Macek <david.macek.0@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/toofishes/archlinux-pacman/"
@@ -60,7 +60,7 @@ msgstr "varování při rozbalování %s (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "nelze rozbalit %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "nelze přejmenovat %s na %s (%s)\n"
@@ -381,7 +381,7 @@ msgstr ""
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s se zdá být zkrácen:  %jd/%jd bytů\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "selhalo stahování %s\n"

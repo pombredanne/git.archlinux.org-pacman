@@ -7,7 +7,7 @@
 # Hector Mtz-Seara <hseara@gmail.com>, 2011-2013
 # Josep <jpreales@gmail.com>, 2013
 # Josep <jpreales@gmail.com>, 2013
-# Davidmp <medipas@gmail.com>, 2015-2018
+# Davidmp <medipas@gmail.com>, 2015-2019
 # Ramon Buldó <rbuldo@gmail.com>, 2014-2015
 # xanb <xancorreu@gmail.com>, 2014
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-07-27 12:36+0000\n"
+"PO-Revision-Date: 2019-02-18 16:52+0000\n"
 "Last-Translator: Davidmp <medipas@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/ca/)\n"
@@ -103,7 +103,7 @@ msgstr "Ha fallat suprimir les dependències instal·lades."
 
 #: scripts/makepkg.sh.in:347
 msgid "A failure occurred in %s()."
-msgstr "S'ha produït un error a %s()."
+msgstr "Ha ocorregut una fallada a %s()."
 
 #: scripts/makepkg.sh.in:356
 msgid "Failed to source %s"
@@ -1573,7 +1573,7 @@ msgstr "Una o més signatures PGP no s'han pogut verificar!"
 
 #: scripts/libmakepkg/integrity/verify_signature.sh.in:114
 msgid "Warnings have occurred while verifying the signatures."
-msgstr "S'han produït advertències mentre es verificaven les signatures."
+msgstr "Han ocorregut advertències mentre es verificaven les signatures."
 
 #: scripts/libmakepkg/integrity/verify_signature.sh.in:115
 msgid "Please make sure you really trust them."
@@ -1719,7 +1719,7 @@ msgstr "Obtenint %s ..."
 
 #: scripts/libmakepkg/source/bzr.sh.in:58
 msgid "Failure while pulling %s"
-msgstr "Error durant l'obtenció de %s"
+msgstr "Fallada durant l'obtenció de %s"
 
 #: scripts/libmakepkg/source/bzr.sh.in:80
 #: scripts/libmakepkg/source/git.sh.in:107
@@ -1736,14 +1736,15 @@ msgstr "Creant una còpia de treball del repositori %s %s ..."
 #: scripts/libmakepkg/source/bzr.sh.in:95
 #: scripts/libmakepkg/source/git.sh.in:84 scripts/libmakepkg/source/hg.sh.in:93
 msgid "Failure while updating working copy of %s %s repo"
-msgstr "Error en actualitzar la còpia de treball del repositori %s %s"
+msgstr ""
+"Fallada durant l'actualització de la còpia de treball del repositori %s %s"
 
 #: scripts/libmakepkg/source/bzr.sh.in:100
 #: scripts/libmakepkg/source/git.sh.in:90
 #: scripts/libmakepkg/source/git.sh.in:124
 #: scripts/libmakepkg/source/hg.sh.in:98
 msgid "Failure while creating working copy of %s %s repo"
-msgstr "Error en crear la còpia de treball del repositori %s %s"
+msgstr "Fallada en crear la còpia de treball del repositori %s %s"
 
 #: scripts/libmakepkg/source/file.sh.in:36
 #: scripts/libmakepkg/source/local.sh.in:36
@@ -1774,7 +1775,7 @@ msgstr "Clonant el repositori %s %s..."
 #: scripts/libmakepkg/source/git.sh.in:47 scripts/libmakepkg/source/hg.sh.in:46
 #: scripts/libmakepkg/source/svn.sh.in:67
 msgid "Failure while downloading %s %s repo"
-msgstr "Error durant la baixada del repositori %s %s"
+msgstr "Fallada durant la baixada del repositori %s %s"
 
 #: scripts/libmakepkg/source/git.sh.in:55
 msgid "%s is not a clone of %s"
@@ -1788,7 +1789,7 @@ msgstr "Actualitzant el repositori %s %s..."
 #: scripts/libmakepkg/source/git.sh.in:62 scripts/libmakepkg/source/hg.sh.in:55
 #: scripts/libmakepkg/source/svn.sh.in:76
 msgid "Failure while updating %s %s repo"
-msgstr "Error actualitzant el repositori %s %s"
+msgstr "Fallada durant l'actualització del repositori %s %s"
 
 #: scripts/libmakepkg/source/git.sh.in:116
 msgid "Failure while checking out version %s, the git tag has been forged"

@@ -4,13 +4,13 @@
 #
 # Translators:
 # Gwenn M <tornoz@laposte.net>, 2015
-# Gwenn M <tornoz@laposte.net>, 2015,2018
+# Gwenn M <tornoz@laposte.net>, 2015,2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-08-06 13:32+0000\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
+"PO-Revision-Date: 2019-01-11 10:35+0000\n"
 "Last-Translator: Gwenn M <tornoz@laposte.net>\n"
 "Language-Team: Breton (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/br/)\n"
@@ -54,7 +54,7 @@ msgstr "ur galv diwall a zo bet roet en ur eztennañ %s (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "n'haller ket eztennañ %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "n'haller ket adenvel %s e %s (%s)\n"
@@ -380,7 +380,7 @@ msgstr ""
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "krennet e seblant bezañ %s : %jd/%jd eizhbit\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "fazi en ur pellgargañ %s\n"
@@ -822,6 +822,8 @@ msgstr ""
 #, c-format
 msgid "key %s, \"%s\" found on keyserver, keyring is not writable\n"
 msgstr ""
+"alc'hwez %s, \"%s\" kavet war an dafariad alc'hwezioù, n'haller ket skrivañ "
+"en droñsell\n"
 
 #: lib/libalpm/signing.c:471
 #, c-format
@@ -836,7 +838,7 @@ msgstr "%s : mankout a ra ar sinadur dleet\n"
 #: lib/libalpm/signing.c:874
 #, c-format
 msgid "%s: signature from \"%s\" is marginal trust\n"
-msgstr ""
+msgstr "%s: mentrezh ar sinadur \"%s\" n'eo ket fizius-tre\n"
 
 #: lib/libalpm/signing.c:882
 #, c-format
@@ -851,7 +853,7 @@ msgstr ""
 #: lib/libalpm/signing.c:901
 #, c-format
 msgid "%s: key \"%s\" is unknown\n"
-msgstr ""
+msgstr "%s: dianav zo an alc'hwez \"%s\"\n"
 
 #: lib/libalpm/signing.c:910
 #, c-format
@@ -878,7 +880,7 @@ msgstr ""
 #: lib/libalpm/signing.c:1136
 #, c-format
 msgid "%s: unsupported signature format\n"
-msgstr ""
+msgstr "%s: mentrezh sinadur anskor\n"
 
 #: lib/libalpm/sync.c:98
 #, c-format

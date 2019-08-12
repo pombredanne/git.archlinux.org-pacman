@@ -9,14 +9,14 @@
 # kraim <biskraim@gmail.com>, 2013
 # Mosaab Alzoubi <moceap@hotmail.com>, 2013
 # Mosaab Alzoubi <moceap@hotmail.com>, 2013
-# Mutaz ismail <m3taz.ismail@gmail.com>, 2015
+# Mutaz ismail <mutaz@gmx.net>, 2015
 # سند <0otibi0@gmail.com>, 2013
 # صفا الفليج <safaalfulaij@hotmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
 "PO-Revision-Date: 2018-05-15 01:05+0000\n"
 "Last-Translator: Allan McRae <allan@archlinux.org>\n"
 "Language-Team: Arabic (http://www.transifex.com/toofishes/archlinux-pacman/"
@@ -58,7 +58,7 @@ msgstr "تحذير عند الاستخراج %s (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "تعذّر استخراج %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "تعذر إعادة تسمية %s إلى %s (%s)\n"
@@ -376,7 +376,7 @@ msgstr "فشل في استقبال الملف '%s' من %s : تم تجاوز ح�
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s يبدو غير موثوقًا: %jd/%jd بايت\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "tag td jpldg %s\n"

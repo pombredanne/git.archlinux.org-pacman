@@ -11,9 +11,9 @@
 # juantascon <juantascon@gmail.com>, 2011
 # ice <ice.modding@gmail.com>, 2016
 # Leonel <leonelmalon@gmail.com>, 2013
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013,2015-2016
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013,2015
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013,2015-2017
+# prflr88 <prflr88@gmail.com>, 2013,2015-2016
+# prflr88 <prflr88@gmail.com>, 2013,2015
+# prflr88 <prflr88@gmail.com>, 2013,2015-2017
 # Pedro Román <roizheim@gmail.com>, 2013
 msgid ""
 msgstr ""

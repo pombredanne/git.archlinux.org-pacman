@@ -8,15 +8,15 @@
 # dlin <dlin.tw@gmail.com>, 2014
 # dlin <dlin.tw@gmail.com>, 2014
 # dlin <dlin.tw@gmail.com>, 2011-2012
-# Jeff Huang <s8321414@gmail.com>, 2014-2015,2018
-# Jeff Huang <s8321414@gmail.com>, 2014
+# 黃柏諺 <s8321414@gmail.com>, 2014-2015,2018
+# 黃柏諺 <s8321414@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
-"POT-Creation-Date: 2018-12-12 11:09+1000\n"
-"PO-Revision-Date: 2018-05-15 23:43+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"POT-Creation-Date: 2019-08-12 11:23+1000\n"
+"PO-Revision-Date: 2019-04-13 16:14+0000\n"
+"Last-Translator: byStarTW (pan93412) <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/toofishes/"
 "archlinux-pacman/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -55,7 +55,7 @@ msgstr "解壓縮 %s 時出現警告 (%s)\n"
 msgid "could not extract %s (%s)\n"
 msgstr "無法解壓縮 %s (%s)\n"
 
-#: lib/libalpm/add.c:154 lib/libalpm/dload.c:569 lib/libalpm/remove.c:541
+#: lib/libalpm/add.c:154 lib/libalpm/dload.c:570 lib/libalpm/remove.c:541
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
 msgstr "無法將 %s 重命名為 %s (%s)\n"
@@ -374,7 +374,7 @@ msgstr "無法解開「%s」從 %s 壓縮檔：超出下載的檔案大小\n"
 msgid "%s appears to be truncated: %jd/%jd bytes\n"
 msgstr "%s 可縮小：%jd/%jd 位元組\n"
 
-#: lib/libalpm/dload.c:672 lib/libalpm/dload.c:701
+#: lib/libalpm/dload.c:673 lib/libalpm/dload.c:702
 #, c-format
 msgid "failed to download %s\n"
 msgstr "下載 %s 失敗\n"

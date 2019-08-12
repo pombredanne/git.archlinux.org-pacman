@@ -10,7 +10,7 @@
 # kraim <biskraim@gmail.com>, 2013
 # Mosaab Alzoubi <moceap@hotmail.com>, 2013
 # Mosaab Alzoubi <moceap@hotmail.com>, 2013
-# Mutaz ismail <m3taz.ismail@gmail.com>, 2015
+# Mutaz ismail <mutaz@gmx.net>, 2015
 # صفا الفليج <safaalfulaij@hotmail.com>, 2015
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-07-19 14:06+1000\n"
 "PO-Revision-Date: 2018-07-19 04:15+0000\n"
-"Last-Translator: Mutaz ismail <m3taz.ismail@gmail.com>\n"
+"Last-Translator: Mutaz ismail <mutaz@gmx.net>\n"
 "Language-Team: Arabic (http://www.transifex.com/toofishes/archlinux-pacman/"
 "language/ar/)\n"
 "Language: ar\n"

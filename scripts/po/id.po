@@ -9,10 +9,10 @@
 # Hasan Al Banna, 2013
 # Ibnu Daru Aji, 2013,2016
 # Ibnu Daru Aji, 2016
-# se7entime <se7entime@openmailbox.org>, 2013
-# se7entime <se7entime@openmailbox.org>, 2013,2016
-# se7entime <se7entime@openmailbox.org>, 2016
-# se7entime <se7entime@openmailbox.org>, 2013,2016
+# se7entime <se7entime@disroot.org>, 2013
+# se7entime <se7entime@disroot.org>, 2013,2016
+# se7entime <se7entime@disroot.org>, 2016
+# se7entime <se7entime@disroot.org>, 2013,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"

@@ -8,13 +8,13 @@
 # Blask <blaskyy@gmail.com>, 2013
 # leonfeng <chaofeng111@qq.com>, 2018
 # Felix Yan <felixonmars@gmail.com>, 2015
-# Jiachen YANG <farseerfc@gmail.com>, 2018
+# Jiachen YANG <farseerfc@gmail.com>, 2018-2019
 # leonfeng <chaofeng111@qq.com>, 2011,2013
 # leonfeng <chaofeng111@qq.com>, 2011,2013,2018
 # leonfeng <chaofeng111@qq.com>, 2011,2013
 # mytbk <mytbk920423@gmail.com>, 2013-2018
 # mytbk <mytbk920423@gmail.com>, 2013
-# Nicholas Wang <wck963@gmail.com>, 2018
+# Nicholas Wang <wck963@gmail.com>, 2018-2019
 # leonfeng <chaofeng111@qq.com>, 2013
 # leonfeng <chaofeng111@qq.com>, 2011
 # liushuyu011 <liushuyu011@gmail.com>, 2018
@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-07-19 14:06+1000\n"
-"PO-Revision-Date: 2018-09-13 11:10+0000\n"
+"PO-Revision-Date: 2019-07-10 09:15+0000\n"
 "Last-Translator: Jiachen YANG <farseerfc@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/toofishes/archlinux-"
 "pacman/language/zh_CN/)\n"
@@ -392,7 +392,7 @@ msgstr "运行 XferCommand 创建进程失败！\n"
 #: src/pacman/conf.c:278
 #, c-format
 msgid "could not rename %s to %s (%s)\n"
-msgstr "无法重命名 %s 为 %s (%s)\n"
+msgstr "无法将 %s 重命名为 %s (%s)\n"
 
 #: src/pacman/conf.c:289
 #, c-format
@@ -1580,7 +1580,7 @@ msgstr " %s 已经是最新版本\n"
 #: src/pacman/util.c:170
 #, c-format
 msgid "failed to synchronize all databases\n"
-msgstr "同步所有数据库失败\n"
+msgstr "未能成功同步所有数据库\n"
 
 #: src/pacman/util.c:636
 #, c-format

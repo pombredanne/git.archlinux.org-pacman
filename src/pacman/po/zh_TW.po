@@ -12,14 +12,15 @@
 # dlin <dlin.tw@gmail.com>, 2011-2012
 # Hsiu-Ming Chang <cges30901@gmail.com>, 2018
 # Huei-Horng Yo <hiroshiyui@gmail.com>, 2012
-# Jeff Huang <s8321414@gmail.com>, 2014-2016,2018
+# 黃柏諺 <s8321414@gmail.com>, 2014-2016,2018
+# byStarTW (pan93412) <pan93412@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Arch Linux Pacman package manager\n"
 "Report-Msgid-Bugs-To: http://bugs.archlinux.org/index.php?project=3\n"
 "POT-Creation-Date: 2018-07-19 14:06+1000\n"
-"PO-Revision-Date: 2018-10-02 03:23+0000\n"
-"Last-Translator: Hsiu-Ming Chang <cges30901@gmail.com>\n"
+"PO-Revision-Date: 2019-04-15 17:05+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/toofishes/"
 "archlinux-pacman/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -121,7 +122,7 @@ msgstr "正在套用增修更新…\n"
 #: src/pacman/callback.c:277
 #, c-format
 msgid "generating %s with %s... "
-msgstr "正在生成 %s (使用 %s)…"
+msgstr "正在使用 %2$s 產生 %1$s…"
 
 #: src/pacman/callback.c:282
 #, c-format
@@ -167,7 +168,7 @@ msgstr ""
 #: src/pacman/callback.c:405
 #, c-format
 msgid "Replace %s with %s/%s?"
-msgstr "替換 %s 嗎 (使用 %s/%s )？"
+msgstr "使用 %2$s/%3$s 替換 %1$s？"
 
 #: src/pacman/callback.c:417
 #, c-format
@@ -1450,22 +1451,22 @@ msgstr "正在進行全系統更新…\n"
 #: src/pacman/sync.c:720
 #, c-format
 msgid "unable to satisfy dependency '%s' required by %s\n"
-msgstr "無法滿足依賴關係「%s」，被 %s 需要\n"
+msgstr "無法滿足 %2$s 需要的依賴關係「%1$s」\n"
 
 #: src/pacman/sync.c:724
 #, c-format
 msgid "installing %s (%s) breaks dependency '%s' required by %s\n"
-msgstr "正在安裝的 %s (%s) 破壞了依賴關係「%s」被 %s 需要\n"
+msgstr "正在安裝的 %1$s (%2$s) 破壞了 %4$s 需要的依賴關係「%3$s」\n"
 
 #: src/pacman/sync.c:728
 #, c-format
 msgid "removing %s breaks dependency '%s' required by %s\n"
-msgstr "正在移除的 %s 破壞了依賴關係「%s」被 %s 需要\n"
+msgstr "正在移除的 %1$s 破壞了 %3$s 需要的依賴關係「%2$s」\n"
 
 #: src/pacman/sync.c:748
 #, c-format
 msgid "package %s does not have a valid architecture\n"
-msgstr "軟體包「%s」未包含一個有效的架構\n"
+msgstr "軟體包「%s」未包含有效架構\n"
 
 #: src/pacman/sync.c:763
 #, c-format
@@ -1500,7 +1501,7 @@ msgstr "%s 同時存在於「%s」和「%s」\n"
 #: src/pacman/sync.c:828
 #, c-format
 msgid "%s: %s exists in filesystem (owned by %s)\n"
-msgstr "%s：檔案系統中已存在 %s（被 %s 擁有）\n"
+msgstr "%s：檔案系統中已存在 %s（由 %s 擁有）\n"
 
 #: src/pacman/sync.c:831
 #, c-format
@@ -1543,7 +1544,7 @@ msgid ""
 "  if you're sure a package manager is not already\n"
 "  running, you can remove %s\n"
 msgstr ""
-"  如果你確認軟體包管理器沒有在運行，\n"
+"  如果你確認軟體包管理器沒在運作，\n"
 "  你可以刪除 %s。\n"
 
 #: src/pacman/util.c:97
@@ -1639,7 +1640,7 @@ msgstr "未知的信任"
 #: src/pacman/util.c:794
 #, c-format
 msgid "%s, %s from \"%s\""
-msgstr "%s，%s 從「%s」"
+msgstr "%s，%s 來自「%s」"
 
 #: src/pacman/util.c:812
 #, c-format
